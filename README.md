@@ -12,7 +12,7 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
 - Introduction to reproducible research <!-- Noushin -->
 - Tools for reproducible research <!-- Monica -->
 - Reproducible research projects  <!-- Noushin -->
-- BREAK ask for any questions ☕
+- BREAK & ask for any questions ☕
 - Markdown for research projects <!-- Monica & Monica-->
 - Github for research projects <!-- Monica -->
 
