@@ -9,3 +9,10 @@ title: "Tools for reproducible research"
 - the required tools: e.g. R, Rstudio, python, open-refine, good tables
 - notebooks (Rmarkdown, Jupyter)
 - demo
+
+# Notebooks
+
+
+# Referencing
+
+- e.g. knitting

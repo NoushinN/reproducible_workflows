@@ -9,7 +9,7 @@ github-repo: NoushinN/reproducible_research
 description: "This book contains materials for a 1 day Introduction to reproducible research workshop"
 ---
 
-# Preface {-}
+# Preface 
 
 
 A repository to house materials for a reproducibility in research workshop using [`R`](https://www.r-project.org/).
@@ -34,3 +34,15 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 
 
+# Learning goals
+
+By the end of this workshop, EW2 participants will learn how to:
+
+- describe reproducible research and its components
+- write basic markdown, Rmarkdown and bookdown documents
+- use knitr, rmarkdown and bookdown R packages to build various document types (e.g. PDF, HTML and DOCX)
+- create reproducible Rmarkdown documents leveraging .Rproj and .RData
+- include in-line citation and full references list in to Rmarkdown document using .bib files
+- create presentations from Rmarkdown documents that include R code
+- work with git version control tool 
+- create reproducible and “backed up” analysis via remote repositories (e.g github)
