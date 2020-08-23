@@ -1,0 +1,11 @@
+---
+title: "Tools for reproducible research"
+---
+
+# Tools for reproducible projects
+
+- tools to set up a reproducible project
+
+- the required tools: e.g. R, Rstudio, python, open-refine, good tables
+- notebooks (Rmarkdown, Jupyter)
+- demo

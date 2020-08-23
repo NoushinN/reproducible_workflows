@@ -1,0 +1,36 @@
+---
+title: "Introduction to reproducible research"
+author: "Noushin Nabavi & Monica Granados"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+github-repo: NoushinN/reproducible_research
+description: "This book contains materials for a 1 day Introduction to reproducible research workshop"
+---
+
+# Preface {-}
+
+
+A repository to house materials for a reproducibility in research workshop using [`R`](https://www.r-project.org/).
+
+
+The goal of this workshop is to teach concepts of `reproducible research` to new-to-programming professionals. 
+
+`Reproducible research` is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.
+
+The need for reproducibility is increasing dramatically as data analyses become more complex, involving larger datasets and more sophisticated computations. 
+
+Reproducibility allows for people to focus on the actual content of a data analysis, rather than on superficial details reported in a written summary. In addition, reproducibility makes an analysis more useful to others because the data and code that actually conducted the analysis are available. 
+
+This workshop focuses on the concepts and tools behind reporting modern data analyses in a reproducible manner. As part of this, we introduce tools that enable publishing data analyses in a single document that allows others to easily execute the same analysis to obtain the same results.
+
+Additionally, as part of this workshop, we briefly introduce data structures, importing and wrangling data,  exploring missingness, as well as data visualizations and reporting. 
+
+`R` is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop content will follow best practices for using `R`, giving attendees a foundation in the fundamentals of R and scientific computing.
+
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+
+

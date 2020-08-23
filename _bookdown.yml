@@ -1,0 +1,15 @@
+book_filename: "ds-cop-intro-to-r-2-day"
+chapter_name: "Chapter "
+repo: https://github.com/bcgov/ds-intro-to-r-2-day
+output_dir: docs
+rmd_files:
+    - "index.Rmd"
+    - "01-rr-intro.Rmd"
+    - "02-rr-tools.Rmd"
+    - "03-rr-projects.Rmd"
+    - "04-rr-markdown.Rmd"
+    - "05-rr-github.Rmd"
+    - "06-rr-bibliography.Rmd"
+    - "07-rr-resources.Rmd"
+clean: [packages.bib, bookdown.bbl]
+delete_merged_file: true

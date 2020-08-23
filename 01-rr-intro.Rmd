@@ -1,0 +1,13 @@
+---
+title: "Introduction to reproducible research"
+---
+
+
+# Introduction to reproducible research
+
+- what is reproducible research? 
+- components of reproducible research
+
+## Motivation
+
+

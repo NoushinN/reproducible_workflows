@@ -1,0 +1,22 @@
+---
+title: "Markdown for reproducible research"
+---
+
+# Introduction to markdown
+- how does rmarkdown work? Advantages, disadvantages
+- rmarkdown syntax (examples)
+
+# Rmarkdown and usage
+
+- reproducible reporting with rmarkdown
+
+# markdown capabilities
+
+- plots and graphs
+- reproducible code to visualize data
+- ggplot library in R
+- demo with data
+
+
+# demo
+- demo one example

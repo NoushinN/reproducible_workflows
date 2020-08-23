@@ -1,0 +1,17 @@
+---
+title: "Reproducible research projects"
+---
+
+
+# Reproducible research projects
+
+- Tidy data principles
+- tidyr and dplyr 
+
+- what are data structures?
+- what are data frames?
+- tidy principles
+- missingness
+
+- demo with data
+

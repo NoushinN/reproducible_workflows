@@ -1,0 +1,16 @@
+---
+title: "Resources"
+---
+
+# Resources
+
+
+- Reproducible research with R and RStudio: http://christophergandrud.github.io/RepResR-RStudio/
+- Tools for reproducible research: https://kbroman.org/Tools4RR/
+- Data privacy and security: https://dataprivacymanager.net/security-vs-privacy/
+- BC-Gov framework for github https://github.com/bcgov/BC-Policy-Framework-For-GitHub
+- Making slides with Xaringan package in RMarkdown: https://arm.rbind.io/slides/xaringan.html
+- Data wrangling with R: https://cengel.github.io/R-data-wrangling/
+- Data cleaning with R and tidyverse: https://towardsdatascience.com/data-cleaning-with-r-and-the-tidyverse-detecting-missing-values-ea23c519bc62
+- Gallery of missing data visualization: https://cran.r-project.org/web/packages/naniar/vignettes/naniar-visualisation.html
+- How does R handle missing values: https://stats.idre.ucla.edu/r/faq/how-does-r-handle-missing-values/
