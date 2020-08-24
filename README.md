@@ -25,8 +25,7 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
 | RR projects | 10:20      | 10:30    |
 | RR markdown | 10:30      | 10:40    |
 | RR github   | 10:40      | 10:50    |
-| RR biblio   | 10:50      | 10:60    |
-| Resources   | 10:60      | 10:60    |
+| RR biblio   | 10:50      | 11:00    |
 
 **Course Notes**: https://github.com/NoushinN/reproducible_research 
 
