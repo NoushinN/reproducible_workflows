@@ -1,6 +1,6 @@
-book_filename: "ds-cop-intro-to-r-2-day"
+book_filename: "reproducible_research"
 chapter_name: "Chapter "
-repo: https://github.com/bcgov/ds-intro-to-r-2-day
+repo: https://github.com/NoushinN/reproducible_research
 output_dir: docs
 rmd_files:
     - "index.Rmd"
