@@ -2,6 +2,8 @@
 title: "Tools for reproducible research"
 ---
 
+# Tools for reproducible projects
+
 “An article about computational science in a scientific publication is not the scholarship itself,
 it is merely advertising of the scholarship. The
 actual scholarship is the complete software development environment and the complete set
@@ -12,12 +14,13 @@ paraphrasing Jon Claerbout
 
 “In 2002, I felt like I would just remember everything forever,” Karl Broman, a biostatistician at the University of Wisconsin, Madison. “It was only later that it became clear that you start to forget things within a month.”
 
-# Tools for reproducible projects
+
+## Tools
 
 - R, Rstudio, python, open-refine, good tables
 - notebooks (Rmarkdown, Jupyter, holepunch)
 
-# Components to control
+## Components to control
 
 - operating system (and libraries)
 - R/Python versions

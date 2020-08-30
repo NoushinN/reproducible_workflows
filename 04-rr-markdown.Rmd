@@ -7,7 +7,7 @@ title: "Markdown for reproducible research"
 - how does rmarkdown work? Advantages, disadvantages
 - rmarkdown syntax (examples)
 
-# Rmarkdown and usage
+## Rmarkdown and usage
 
 - reproducible reporting with rmarkdown
 - dichotomizing Rmarkdown document content to (1) computation component and (2) narrative component (@MikeKane, Yale) collectively called as research compendia
@@ -34,5 +34,5 @@ title: "Markdown for reproducible research"
 - Integrates literate programming
 - Provide interpretability and facilitate reproducibility
 
-# Demo 
+## Demo 
 - demo one example

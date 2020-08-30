@@ -34,7 +34,7 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 
 
-# Learning goals
+## Learning goals
 
 By the end of this workshop, EW2 participants will learn how to:
 

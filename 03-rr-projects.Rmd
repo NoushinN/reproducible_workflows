@@ -3,8 +3,11 @@ title: "Reproducible research projects"
 ---
 
 
-# Reproducible research projects
+# Reproducible research project structure
 
+## Setting up an Rproject / Notebook
+
+## Data component
 - Tidy data principles
 - tidyr and dplyr 
 
@@ -15,3 +18,4 @@ title: "Reproducible research projects"
  
 - demo with data
 
+## Documentation component
