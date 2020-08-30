@@ -6,8 +6,84 @@ title: "Introduction to reproducible research"
 # Introduction to reproducible research
 
 - what is reproducible research? 
-- components of reproducible research
 
-## Motivation
+According to a U.S. National Science Foundation (NSF) subcommittee on replicability in science, “reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.
 
 
+# Terminology distinctions
+
+Reproducible research is sometimes known as reproducibility, reproducible statistical analysis, reproducible data analysis, reproducible reporting, and literate programming.
+
+## Reproducible versus replicable
+
+Replicability means obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data.
+
+
+## Reproducible versus repeatable
+
+Repeatability measures the variation in measurements taken by a single instrument or person under the same conditions, while reproducibility measures whether an entire study or experiment can be reproduced in its entirety.
+
+This is a way for researchers to verify that their own results are true and are not just chance artifacts.
+
+
+# Reproducibility crisis
+
+The replication crisis (or replicability crisis or reproducibility crisis) is, as of 2020, an ongoing methodological crisis in which it has been found that many scientific studies are difficult or impossible to replicate or reproduce. The replication crisis affects the social sciences and medicine most severely.
+
+## What needs to be reproduced?
+
+Actual results themselves, which includes:
+- Tables
+- Visualizations/figures/graphs
+- Values reported in the text
+- The statistical evidence in support of the findings (e.g., p-values, confidence intervals, credible intervals).
+
+# Motivation
+
+Attempt to make experiments, processes, and reports more reproducible. 
+Some aspects to consider that may make your experiments more reproducible:
+1. Don't Read Between the Lines. ...
+2. Be Strict. ...
+3. Keep Things Transparent. ...
+4. Collaborate. ...
+5. Automate Your Processes.
+
+# Benefits of reproducubility
+
+- Increased likelihood that the research will be correct
+- Reproducibility makes it easier to check the research
+- It is easier to reproduce the research independently
+- Easier to extend the research
+- Reusable code and instruction resulting in increased efficiencies
+
+
+# How to make research reproducible 
+
+1) The first reason to repeat experiments is simply to verify results. Different science disciplines have different criteria for determining what good results are.
+2) The next reason to repeat experiments is to develop skills necessary to extend established methods and develop new experiments. For these, we need reproducible methods, tools, and platforms.
+
+
+# Requirements for reproducibility
+1) The "raw" data is made available, where "raw" refers to the data prior to any manipulation by the researcher (e.g., prior to any data cleaning and transformation).
+2) A complete set of instructions is provided explaining all steps used in the processing and analyzing the data.
+
+
+# Additional requirements
+
+a) A set of files is provided containing the data and code, and it is possible to create the tables and any data-derived charts/graphics/visualizations by running the code.
+
+b) Details about the system being used to run the analysis: operating system, patches, random number seeds, specific versions of all software/packages/libraries are listed.
+
+c) The code is written in a way that can be readily understood.
+
+d) Open/transparent. All the data and materials are available (as opposed to "available upon request") -- e.g., posted on GitHub, or in an international data repository.
+
+e) That is, either:
+
+-- Another party (e.g., a reviewer) has successfully reproduced the results and certified them as such.
+-- Logs demonstrate that key results were successfully created from the inputs.
+-- The key results are linked to the data and code, so the relationship can be directly inspected.
+
+A final requirement, which is sometimes known as literate programming, is that:
+
+f) The entire report is written using code. That is, a file or files are provided which, when run, import the data, produce all the results, insert the results into the text of the report, and format the report.

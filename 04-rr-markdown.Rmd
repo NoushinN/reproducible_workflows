@@ -10,27 +10,29 @@ title: "Markdown for reproducible research"
 # Rmarkdown and usage
 
 - reproducible reporting with rmarkdown
+- dichotomizing Rmarkdown document content to (1) computation component and (2) narrative component (@MikeKane, Yale) collectively called as research compendia
 
-# markdown capabilities
+- Research Compedia: a container for the different elements that make up the document and its computations (i.e. text, code, data, ...) and as a means for distributing, managing, and updating the collection.
 
-
-- plots and graphs
-- reproducible code to visualize data
-- ggplot library in R
-- demo with data
+## Computation components 
 
 
-## Presentations 
+- Objects to be presented: usually plots and tables
+- Reproducible code to visualize data
 
-- Use markdown to make presentations
+## Narrative components 
 
-## Communication
+- Provide backgrounds, goals
+- Contexualize computational components
+- Establish themes
+- Convey the results
+- Render in pdf, html, docx
 
-- pdf, html, docx
+## Rproject set-up
 
-## Bookdown
-
-
+- Allows for integration of the two components (i.e. creation of Rmarkdowns with compuational components)
+- Integrates literate programming
+- Provide interpretability and facilitate reproducibility
 
 # Demo 
 - demo one example

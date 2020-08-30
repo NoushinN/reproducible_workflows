@@ -12,6 +12,6 @@ title: "Reproducible research projects"
 - what are data frames?
 - tidy principles
 - missingness
-
+ 
 - demo with data
 

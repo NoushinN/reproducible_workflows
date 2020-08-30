@@ -2,4 +2,4 @@
 title: "Github for reproducible research"
 ---
 
-# Reproducible research for github
+# Github for Reproducible research  

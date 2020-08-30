@@ -14,3 +14,4 @@ title: "Resources"
 - Data cleaning with R and tidyverse: https://towardsdatascience.com/data-cleaning-with-r-and-the-tidyverse-detecting-missing-values-ea23c519bc62
 - Gallery of missing data visualization: https://cran.r-project.org/web/packages/naniar/vignettes/naniar-visualisation.html
 - How does R handle missing values: https://stats.idre.ucla.edu/r/faq/how-does-r-handle-missing-values/
+- What does research reproducibility mean? https://stm.sciencemag.org/content/8/341/341ps12
