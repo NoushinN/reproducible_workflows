@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 8 Resources | Introduction to reproducible research</title>
+  <title>Chapter 6 GIT Commands | Introduction to reproducible research</title>
   <meta name="description" content="This book contains materials for a 1 day Introduction to reproducible research workshop" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 8 Resources | Introduction to reproducible research" />
+  <meta property="og:title" content="Chapter 6 GIT Commands | Introduction to reproducible research" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="NoushinN/reproducible_research" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 8 Resources | Introduction to reproducible research" />
+  <meta name="twitter:title" content="Chapter 6 GIT Commands | Introduction to reproducible research" />
   
   <meta name="twitter:description" content="This book contains materials for a 1 day Introduction to reproducible research workshop" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="bibliography.html"/>
-
+<link rel="prev" href="introduction-to-markdown.html"/>
+<link rel="next" href="bibliography.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -128,30 +128,120 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="resources" class="section level1">
-<h1><span class="header-section-number">Chapter 8</span> Resources</h1>
+<div id="git-commands" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> GIT Commands</h1>
 <ul>
-<li>Reproducible research with R and RStudio: <a href="http://christophergandrud.github.io/RepResR-RStudio/" class="uri">http://christophergandrud.github.io/RepResR-RStudio/</a></li>
-<li>Tools for reproducible research: <a href="https://kbroman.org/Tools4RR/" class="uri">https://kbroman.org/Tools4RR/</a></li>
-<li>Data privacy and security: <a href="https://dataprivacymanager.net/security-vs-privacy/" class="uri">https://dataprivacymanager.net/security-vs-privacy/</a></li>
-<li>BC-Gov framework for github <a href="https://github.com/bcgov/BC-Policy-Framework-For-GitHub" class="uri">https://github.com/bcgov/BC-Policy-Framework-For-GitHub</a></li>
-<li>Making slides with Xaringan package in RMarkdown: <a href="https://arm.rbind.io/slides/xaringan.html" class="uri">https://arm.rbind.io/slides/xaringan.html</a></li>
-<li>Data wrangling with R: <a href="https://cengel.github.io/R-data-wrangling/" class="uri">https://cengel.github.io/R-data-wrangling/</a></li>
-<li>Data cleaning with R and tidyverse: <a href="https://towardsdatascience.com/data-cleaning-with-r-and-the-tidyverse-detecting-missing-values-ea23c519bc62" class="uri">https://towardsdatascience.com/data-cleaning-with-r-and-the-tidyverse-detecting-missing-values-ea23c519bc62</a></li>
-<li>Gallery of missing data visualization: <a href="https://cran.r-project.org/web/packages/naniar/vignettes/naniar-visualisation.html" class="uri">https://cran.r-project.org/web/packages/naniar/vignettes/naniar-visualisation.html</a></li>
-<li>How does R handle missing values: <a href="https://stats.idre.ucla.edu/r/faq/how-does-r-handle-missing-values/" class="uri">https://stats.idre.ucla.edu/r/faq/how-does-r-handle-missing-values/</a></li>
-<li>What does research reproducibility mean? <a href="https://stm.sciencemag.org/content/8/341/341ps12" class="uri">https://stm.sciencemag.org/content/8/341/341ps12</a></li>
-<li>Challenge to scientists: does your ten-year-old code still run? <a href="https://www.nature.com/articles/d41586-020-02462-7?utm_source=twitter&amp;utm_medium=social&amp;utm_content=organic&amp;utm_campaign=NGMT_USG_JC01_GL_Nature#ref-CR1" class="uri">https://www.nature.com/articles/d41586-020-02462-7?utm_source=twitter&amp;utm_medium=social&amp;utm_content=organic&amp;utm_campaign=NGMT_USG_JC01_GL_Nature#ref-CR1</a></li>
+<li><a href="git-commands.html#git-terminology">GIT Terminology</a></li>
+<li><a href="git-commands.html#git-commands">GIT Commands</a></li>
+<li><a href="git-commands.html#resources">Resources</a></li>
+</ul>
+<p><br></p>
+<div id="git-terminology" class="section level2">
+<h2><span class="header-section-number">6.1</span> GIT Terminology</h2>
+<ul>
+<li><p><code>origin</code> : connection pointing to the remote repository</p></li>
+<li><p><code>master</code> : name of your default branch. A branch in Git is simply a lightweight movable pointer to a commit</p></li>
+<li><p><code>working directory</code> : local repository</p></li>
+<li><p><code>.git directory</code> : Git stores all of its repository data in the .git directory. This is created when a local repository is initialised using the <code>init</code> command</p></li>
+<li><p><code>.git.ignore</code> : Git uses this file to determine which files and directories to ignore, before you make a commit</p></li>
+<li><p><code>hash</code>: the commit command creates a unique ID called a hash, which is an absolute path</p></li>
+<li><p><code>HEAD</code> : pointer to the last commit of the branch you are currently on. If you are on the master branch, then HEAD and master will refer to the same commit. This is a relative path. To see the previous commit use <code>HEAD~1</code></p></li>
+</ul>
+</div>
+<div id="git-commands-1" class="section level2">
+<h2><span class="header-section-number">6.2</span> GIT Commands</h2>
+<p>Initialise</p>
+<ul>
+<li><code>git init &lt;local repository name&gt;</code>initialises a new local repository</li>
+</ul>
+<p>Remotes</p>
+<ul>
+<li><code>git remote add &lt;remote name&gt; &lt;url&gt;</code> creates a new connection to a remote repository <remote name> is the shortcut for the <url> and is typically set to ‘origin’</li>
+<li><code>git remote show &lt;remote name&gt;</code> shows which branch is automatically pushed to when you run git push while on certain branches. It also shows you which remote branches on the server you don’t yet have, which remote branches you have that have been removed from the server, and multiple local branches that are able to merge automatically with their remote-tracking branch when you run git pull</li>
+<li><code>git remote rename &lt;remote name&gt; &lt;new remote name&gt;</code> rename a remote</li>
+<li><code>git remote remove &lt;remote name&gt;</code> remove a remote</li>
+<li><code>git remote -v</code> lists the remotes that are configured</li>
+</ul>
+<p>Branches</p>
+<ul>
+<li><code>git branch &lt;new branch name&gt;</code> adds a new branch, a structure with trees for saved states of files</li>
+<li><code>git checkout &lt;branch name&gt; &lt;filename&gt;</code> checks out (i.e. switches to another version) an old version of a file</li>
+<li><code>git branch</code> lists all of the branches in a repository, with a * next to the branch you are currently on</li>
+<li><code>git checkout &lt;branch-name&gt;</code> switches to another branch-name</li>
+<li><code>git checkout -b branch-name&gt;</code> creates the branch and switches you to it</li>
+<li><code>git merge source destination</code> merges two branches</li>
+</ul>
+<p>Status</p>
+<ul>
+<li><code>git status</code> shows which files have changed/new in your repository</li>
+<li><code>git diff</code> shows the changes you made to the file</li>
+<li><code>git diff --staged</code> shows the difference between the last committed change and what’s in the staging area</li>
+<li><code>git diff directory</code> shows the changes to the files in the directory</li>
+<li><code>git diff -r HEAD</code> -r flag refers to compare to a particular revision</li>
+<li><code>git log</code> view the log of the project’s history</li>
+<li><code>git show &lt;hash&gt;</code> view the details of a specific commit, with the first few characters of the commit’s hash</li>
+<li><code>git annotate &lt;filename&gt;</code> shows who made the last change to each line of a file and when</li>
+</ul>
+<p>Clone</p>
+<ul>
+<li><code>git clone &lt;remote name&gt;</code> to clone a repo and download a copy of a repo to a local folder This automatically creates the remote called origin</li>
+</ul>
+<p>Add</p>
+<ul>
+<li><code>git add</code> adds from your working directory to your staging area, ie specifies what will go in a snapshot</li>
+<li><code>git add &lt;filename&gt;</code> stages a file</li>
+<li><code>git add -A</code> stages all new, modified and deleted</li>
+<li><code>git add &lt;foldername&gt;/*</code> adds folder and contents to your staging area</li>
+</ul>
+<p>Remove</p>
+<ul>
+<li><code>git clean -n</code> shows a list of files that are in the repository, but whose history Git is not currently tracking</li>
+<li><code>git clean -f</code> will then delete those files</li>
+</ul>
+<p>Undo</p>
+<ul>
+<li><code>git reset</code> undo ALL changes that have been staged with git add</li>
+<li><code>git reset HEAD &lt;filename&gt;</code> undo changes to a specific filename that have been staged on HEAD</li>
+</ul>
+<p>Commit</p>
+<ul>
+<li><code>git commit -m &quot;&lt;message&gt;&quot;</code> commits the file with the snapshot to the <code>local repository</code> locally. The commit records the changes to the file ie actually takes the snapshot and makes a permanent record of it</li>
+</ul>
+<p>Fetch</p>
+<ul>
+<li><code>git fetch</code> gets any new work since last clone or fetch. Fetch does not however merge remote work with our work</li>
+</ul>
+<p>Pull</p>
+<ul>
+<li><code>git pull</code> automatically fetches and then merges that remote branch into your current branch</li>
+</ul>
+<p>Push</p>
+<ul>
+<li><code>git push</code> adds the files to your remote git</li>
+</ul>
+<p>Note on adding files to the remote:</p>
+<ul>
+<li>When it is your first push from a repo, you will first have to make the link between the local and remote repository via: <code>git push  --set-upstream origin master</code>, or shorter <code>git push -u origin master</code>. As of then, <code>git push</code> will refer to the upstream branch you’ve set: i.e. origin / master</li>
+</ul>
+<p><br></p>
+</div>
+<div id="resources" class="section level2">
+<h2><span class="header-section-number">6.3</span> Resources</h2>
+<ul>
+<li><a href="http://happygitwithr.com/rmd-test-drive.html">Happy Git and GitHub for the useR by Jennifer Bryan</a> adapted under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a></li>
+<li><a href="https://git-scm.com/book/en/v2">Pro Git book, written by Scott Chacon and Ben Straub</a> adapted under the <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution Non Commercial Share Alike 3.0 license</a></li>
+<li><a href="http://swcarpentry.github.io/git-novice/">Version Control with Git by Software Carpentry</a> adapted under the <a href="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0 license</a></li>
 </ul>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="bibliography.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="introduction-to-markdown.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="bibliography.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

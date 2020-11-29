@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 15 Rmarkdown and usage | Introduction to reproducible research</title>
+  <title>Chapter 10 Additional requirements | Introduction to reproducible research</title>
   <meta name="description" content="This book contains materials for a 1 day Introduction to reproducible research workshop" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 15 Rmarkdown and usage | Introduction to reproducible research" />
+  <meta property="og:title" content="Chapter 10 Additional requirements | Introduction to reproducible research" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="NoushinN/reproducible_research" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 15 Rmarkdown and usage | Introduction to reproducible research" />
+  <meta name="twitter:title" content="Chapter 10 Additional requirements | Introduction to reproducible research" />
   
   <meta name="twitter:description" content="This book contains materials for a 1 day Introduction to reproducible research workshop" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="introduction-to-markdown.html"/>
-<link rel="next" href="demo.html"/>
+<link rel="prev" href="requirements-for-reproducibility.html"/>
+<link rel="next" href="tools-for-reproducible-projects.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -117,46 +117,38 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="rmarkdown-and-usage" class="section level1">
-<h1><span class="header-section-number">Chapter 15</span> Rmarkdown and usage</h1>
-<ul>
-<li>reproducible reporting with rmarkdown</li>
-<li><p>dichotomizing Rmarkdown document content to (1) computation component and (2) narrative component (<span class="citation">@MikeKane</span>, Yale) collectively called as research compendia</p></li>
-<li><p>Research Compedia: a container for the different elements that make up the document and its computations (i.e. text, code, data, …) and as a means for distributing, managing, and updating the collection.</p></li>
-</ul>
-<div id="computation-components" class="section level2">
-<h2><span class="header-section-number">15.1</span> Computation components</h2>
-<ul>
-<li>Objects to be presented: usually plots and tables</li>
-<li>Reproducible code to visualize data</li>
-</ul>
-</div>
-<div id="narrative-components" class="section level2">
-<h2><span class="header-section-number">15.2</span> Narrative components</h2>
-<ul>
-<li>Provide backgrounds, goals</li>
-<li>Contexualize computational components</li>
-<li>Establish themes</li>
-<li>Convey the results</li>
-<li>Render in pdf, html, docx</li>
-</ul>
-</div>
-<div id="rproject-set-up" class="section level2">
-<h2><span class="header-section-number">15.3</span> Rproject set-up</h2>
-<ul>
-<li>Allows for integration of the two components (i.e. creation of Rmarkdowns with compuational components)</li>
-<li>Integrates literate programming</li>
-<li>Provide interpretability and facilitate reproducibility</li>
-</ul>
-</div>
+<div id="additional-requirements" class="section level1">
+<h1><span class="header-section-number">Chapter 10</span> Additional requirements</h1>
+<ol style="list-style-type: lower-alpha">
+<li><p>A set of files is provided containing the data and code, and it is possible to create the tables and any data-derived charts/graphics/visualizations by running the code.</p></li>
+<li><p>Details about the system being used to run the analysis: operating system, patches, random number seeds, specific versions of all software/packages/libraries are listed.</p></li>
+<li><p>The code is written in a way that can be readily understood.</p></li>
+<li><p>Open/transparent. All the data and materials are available (as opposed to “available upon request”) – e.g., posted on GitHub, or in an international data repository.</p></li>
+<li><p>That is, either:</p></li>
+</ol>
+<p>– Another party (e.g., a reviewer) has successfully reproduced the results and certified them as such.
+– Logs demonstrate that key results were successfully created from the inputs.
+– The key results are linked to the data and code, so the relationship can be directly inspected.</p>
+<p>A final requirement, which is sometimes known as literate programming, is that:</p>
+<ol start="6" style="list-style-type: lower-alpha">
+<li>The entire report is written using code. That is, a file or files are provided which, when run, import the data, produce all the results, insert the results into the text of the report, and format the report.</li>
+</ol>
+
+<p>“An article about computational science in a scientific publication is not the scholarship itself,
+it is merely advertising of the scholarship. The
+actual scholarship is the complete software development environment and the complete set
+of instructions which generated the figures.”
+— Jonathan Buckheit and David Donoho,
+paraphrasing Jon Claerbout</p>
+<p>“In 2002, I felt like I would just remember everything forever,” Karl Broman, a biostatistician at the University of Wisconsin, Madison. “It was only later that it became clear that you start to forget things within a month.”</p>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="introduction-to-markdown.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="demo.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="requirements-for-reproducibility.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="tools-for-reproducible-projects.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
