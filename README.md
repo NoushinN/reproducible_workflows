@@ -9,8 +9,34 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
 
 # Workshop structure
 
-- Introduction to reproducible research <!-- Noushin -->
+- What's problem?  <!-- Noushin -->
+  * Government is closed 
+  * The public doesn't know how decsions are made
+  * Duplication of work within the government 
+  
+-Reproducible research as a soultion
+  * Openness and transparency in government
+  * Evidence based decision making 
+  * Efficency 
+
 - Tools for reproducible research <!-- Monica -->
+  * Data 
+    * Shared drive/LAN/Sharepoint
+    * Google sheets
+    * Open govenment portal 
+    * GitHub
+  * Methods
+    * GCconnex
+    * Protocols.io
+    * GitHub 
+  * Result
+    * Shared drive/LAN/Sharepoint 
+    * Google docs 
+    * Github 
+  * Communication product 
+    * Cochrane reports
+   * Reporoducible project 
+    * Examples 
 - Reproducible research projects  <!-- Noushin -->
 - BREAK & ask for any questions ☕
 - Markdown for research projects <!-- Monica & Monica-->
