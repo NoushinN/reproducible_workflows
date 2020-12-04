@@ -19,7 +19,7 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
   * Evidence based decision making 
   * Efficency 
 
-- Tools for reproducible research <!-- Monica -->
+- Tools for reproducible research
   * Data 
     * Shared drive/LAN/Sharepoint
     * Google sheets
@@ -35,9 +35,8 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
     * Github 
   * Communication product 
     * Cochrane reports
-   * Reporoducible project 
+   * Reproducible projects 
     * Examples 
-- Reproducible research projects  <!-- Noushin -->
 - BREAK & ask for any questions ☕
 - Markdown for research projects <!-- Monica & Monica-->
 - Github for research projects <!-- Monica -->
