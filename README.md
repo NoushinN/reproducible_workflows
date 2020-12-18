@@ -40,28 +40,32 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
     * Public talks 
     * Media 
 
+- Questions? ☕
+
 ## Holy Grail 
  - Reproducible projects 
     * What is a reproducible project? 
      * Auditable, Accurate, Collaborative 
      * Has programming language, code editor, version control software
-    * Examples 
-    
-- BREAK & ask for any questions ☕
-
-- Markdown for research projects <!-- Monica & Monica-->
-- Github for research projects <!-- Monica -->
+    * Examples
+    * Deep Dive
+     * GitHub
+     * Markdown  
+     
+## Dip your toes into R 
+- Optional if workshop is 1:30
 
 # Workshop schedule
 
 | Activity    | Start Time | End time |
 |-------------|------------|----------|
 | Intro       | 00:00      | 00:10    |
-| RR tools    | 10:10      | 10:20    |
-| RR projects | 10:20      | 10:30    |
-| RR markdown | 10:30      | 10:40    |
-| RR github   | 10:40      | 10:50    |
-| RR biblio   | 10:50      | 11:00    |
+| Tools       | 00:10      | 00:30    |
+| Questions?  | 00:30      | 00:40    |
+| Holy Grail  | 00:40      | 00:60    |
+| Dip in      | 00:60      | 00:70    |
+| Conclusion  | 00:70      | 00:80    |
+
 
 **Course Notes**: https://github.com/NoushinN/reproducible_research 
 
