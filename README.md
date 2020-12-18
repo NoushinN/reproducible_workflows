@@ -8,18 +8,19 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
 
 
 # Workshop structure
-
+## Introduction 
 - What's problem?  <!-- Noushin -->
   * Government is closed 
   * The public doesn't know how decsions are made
   * Duplication of work within the government 
   
-- Reproducible research as a soultion
+- Open and reproducible research as a soultion
   * Openness and transparency in government
   * Evidence based decision making 
   * Efficency 
 
-- Tools for reproducible research
+## Tools
+- Tools for reproducible research in the research life cycle
   * Data 
     * Shared drive/LAN/Sharepoint
     * Google sheets
@@ -35,9 +36,19 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
     * Github 
   * Communication product 
     * Cochrane reports
-   * Reproducible projects 
+    * Open access publications
+    * Public talks 
+    * Media 
+
+## Holy Grail 
+ - Reproducible projects 
+    * What is a reproducible project? 
+     * Auditable, Accurate, Collaborative 
+     * Has programming language, code editor, version control software
     * Examples 
+    
 - BREAK & ask for any questions ☕
+
 - Markdown for research projects <!-- Monica & Monica-->
 - Github for research projects <!-- Monica -->
 
@@ -45,7 +56,7 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
 
 | Activity    | Start Time | End time |
 |-------------|------------|----------|
-| RR intro    | 10:00      | 10:10    |
+| Intro       | 00:00      | 00:10    |
 | RR tools    | 10:10      | 10:20    |
 | RR projects | 10:20      | 10:30    |
 | RR markdown | 10:30      | 10:40    |
