@@ -14,7 +14,7 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
   * The public doesn't know how decsions are made
   * Duplication of work within the government 
   
--Reproducible research as a soultion
+- Reproducible research as a soultion
   * Openness and transparency in government
   * Evidence based decision making 
   * Efficency 
