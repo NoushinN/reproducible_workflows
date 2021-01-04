@@ -16,3 +16,4 @@ title: "Resources"
 - How does R handle missing values: https://stats.idre.ucla.edu/r/faq/how-does-r-handle-missing-values/
 - What does research reproducibility mean? https://stm.sciencemag.org/content/8/341/341ps12
 - Challenge to scientists: does your ten-year-old code still run? https://www.nature.com/articles/d41586-020-02462-7?utm_source=twitter&utm_medium=social&utm_content=organic&utm_campaign=NGMT_USG_JC01_GL_Nature#ref-CR1
+- Using R for Reproducible Research: https://crumplab.github.io/psyc7709_2019/book/docs/index.html
