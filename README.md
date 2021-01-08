@@ -1,10 +1,10 @@
-# Introduction to reproducible workflows
+# Introduction to open and reproducible workflows
 
-A repository to house materials for a workshop introducing participants to reproducible research principles.
+A repository to house materials for a workshop introducing participants to open and reproducible workflows principles.
 
 This workshop is created for the [Experimentation Works (EW)](https://www.canada.ca/en/government/publicservice/modernizing/experimentation-works.html) working group's second cohort, a Government-of-Canada [initiative](https://oecd-opsi.org/innovations/experimentation-works-ew/) to build public servants’ capacity in experimentation skills and practice through a learning-by-doing model that supports and showcases small-scale experiments in the open. Additional information about this initiative can be found [here](https://medium.com/@exp_works/experimentation-works-2-2081cb7f49ab).
 
-The goal of  workshop is to teach _new-to-programming_  EW2 professionals reproducible workflows using the program R. R is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop content will follow best practices for using R, giving attendees a foundation in the fundamentals of reproducible workflows.
+The goal of  workshop is to teach _new-to-programming_  EW2 professionals open and reproducible workflows using the program R. R is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop content will follow best practices for using R, giving attendees a foundation in the fundamentals of reproducible workflows.
 
 
 # Workshop structure
@@ -15,7 +15,7 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
   * Duplication of work within the government 
   * Types of reproducibility
   
-- Open and reproducible workflows as a soultion
+- Open and reproducible workflows as a solution
   * Openness and transparency in government
   * Evidence based decision making 
   * Efficency 
@@ -41,6 +41,9 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
     * Open access publications
     * Public talks 
     * Media 
+  * Giving and receiving credit
+    * Code licences (MIT/Open Canada) 
+    * Information licences (Creative Commons) 
 
 - Questions? ☕
 
