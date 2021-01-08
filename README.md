@@ -13,11 +13,13 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals reprod
   * Government is closed 
   * The public doesn't know how decsions are made
   * Duplication of work within the government 
+  * Types of reproducibility
   
 - Open and reproducible workflows as a soultion
   * Openness and transparency in government
   * Evidence based decision making 
   * Efficency 
+  * Enable others to use our methods or help improve ours
 
 ## Tools
 - Tools for reproducible workflows in the project life cycle
