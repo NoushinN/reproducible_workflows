@@ -41,10 +41,12 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals open a
     * Open access publications
     * Public talks 
     * Media 
+    * Github 
   * Giving and receiving credit
     * Code licences (MIT/Open Canada) 
     * Information licences (Creative Commons) 
-
+    * Github 
+    
 - Questions? ☕
 
 ## Holy Grail 
