@@ -1,6 +1,6 @@
 # Introduction to open and reproducible workflows
 
-A repository to house materials for a workshop introducing participants to open and reproducible workflows principles.
+A repository to house materials for a workshop introducing participants to open and reproducible principles.
 
 This workshop is created for the [Experimentation Works (EW)](https://www.canada.ca/en/government/publicservice/modernizing/experimentation-works.html) working group's second cohort, a Government-of-Canada [initiative](https://oecd-opsi.org/innovations/experimentation-works-ew/) to build public servants’ capacity in experimentation skills and practice through a learning-by-doing model that supports and showcases small-scale experiments in the open. Additional information about this initiative can be found [here](https://medium.com/@exp_works/experimentation-works-2-2081cb7f49ab).
 
