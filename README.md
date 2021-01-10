@@ -74,15 +74,8 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals open a
 | Conclusion  | 00:70      | 00:80    |
 
 
-**Course Notes**: https://github.com/NoushinN/reproducible_research 
-
-**Download Course Materials**:  "https://github.com/NoushinN/reproducible_research.zip"
-
 ## Workshop organization
 - _Instructors_: [Noushin Nabavi](https://github.com/NoushinN), [Monica Granados](https://github.com/Monsauce)
-- _Workshop material_: https://github.com/NoushinN/reproducible_research/
-
-
 
 ### Getting Help or Reporting an Issue
 
