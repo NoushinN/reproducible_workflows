@@ -11,7 +11,7 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals open a
 ## Introduction 
 - What's problem?  <!-- Noushin -->
   * Government is closed 
-  * The public doesn't know how decsions are made
+  * The public doesn't know how decisions are made
   * Duplication of work within the government 
   * Types of reproducibility
   
