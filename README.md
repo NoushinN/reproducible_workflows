@@ -18,7 +18,7 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals open a
 - Open and reproducible workflows as a solution
   * Openness and transparency in government
   * Evidence based decision making 
-  * Efficency 
+  * Efficiency 
   * Enable others to use our methods or help improve ours
 
 ## Tools
