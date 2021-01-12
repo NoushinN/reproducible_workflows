@@ -2,20 +2,20 @@
 
 A repository to house materials for a workshop introducing participants to open and reproducible principles.
 
-This workshop is created for the [Experimentation Works (EW)](https://www.canada.ca/en/government/publicservice/modernizing/experimentation-works.html) working group's second cohort, a Government-of-Canada [initiative](https://oecd-opsi.org/innovations/experimentation-works-ew/) to build public servants’ capacity in experimentation skills and practice through a learning-by-doing model that supports and showcases small-scale experiments in the open. Additional information about this initiative can be found [here](https://medium.com/@exp_works/experimentation-works-2-2081cb7f49ab).
+This workshop is created for the [Experimentation Works (EW)](https://www.canada.ca/en/government/publicservice/modernizing/experimentation-works.html) working group's second cohort, a Government-of-Canada [initiative](https://oecd-opsi.org/innovations/experimentation-works-ew/) to build public servants’ capacity in experimentation skills and practice that supports and showcases small-scale experiments in the open. Additional information about this initiative can be found [here](https://medium.com/@exp_works/experimentation-works-2-2081cb7f49ab).
 
-The goal of  workshop is to teach _new-to-programming_  EW2 professionals open and reproducible workflows by introducing tools like R or Github. R is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop contents will introduce tools and best practices, giving attendees a foundation in the fundamentals of reproducible workflows.
+The goal of  workshop is to teach EW2 professionals open and reproducible workflows by introducing tools like R or Github. Open source tools are commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop contents will introduce tools and best practices, giving attendees a foundation in the fundamentals of reproducible workflows.
 
 
 # Workshop structure
 ## Introduction 
-- What's problem?  <!-- Noushin -->
+- What's the problem?  <!-- Monica -->
   * Government is closed 
   * The public doesn't know how decisions are made
   * Duplication of work within the government 
   * Types of reproducibility
   
-- Open and reproducible workflows as a solution
+- Open and reproducible workflows as a solution <!-- Noushin -->
   * Openness and transparency in government
   * Evidence based decision making 
   * Efficiency 
@@ -23,26 +23,26 @@ The goal of  workshop is to teach _new-to-programming_  EW2 professionals open a
 
 ## Tools
 - Tools for reproducible workflows in the project life cycle
-  * Data 
+  * Data  <!-- Monica -->
     * Shared drive/LAN/Sharepoint
     * Google sheets
     * Open govenment portal 
     * GitHub
-  * Methods
+  * Methods <!-- Noushin -->
     * GCconnex
     * Protocols.io
     * GitHub 
-  * Result
+  * Result <!-- Monica -->
     * Shared drive/LAN/Sharepoint 
     * Google docs 
     * Github 
-  * Communication product 
+  * Communication product  <!-- Noushin -->
     * Cochrane reports
     * Open access publications
     * Public talks 
     * Media 
     * Github 
-  * Giving and receiving credit
+  * Giving and receiving credit <!-- Monica -->
     * Code licences (MIT/Open Canada) 
     * Information licences (Creative Commons) 
     * Github 
