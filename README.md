@@ -4,7 +4,7 @@ A repository to house materials for a workshop introducing participants to open 
 
 This workshop is created for the [Experimentation Works (EW)](https://www.canada.ca/en/government/publicservice/modernizing/experimentation-works.html) working group's second cohort, a Government-of-Canada [initiative](https://oecd-opsi.org/innovations/experimentation-works-ew/) to build public servants’ capacity in experimentation skills and practice that supports and showcases small-scale experiments in the open. Additional information about this initiative can be found [here](https://medium.com/@exp_works/experimentation-works-2-2081cb7f49ab).
 
-The goal of  workshop is to teach EW2 professionals open and reproducible workflows by introducing tools like R or Github. Open source tools are commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop contents will introduce tools and best practices, giving attendees a foundation in the fundamentals of reproducible workflows.
+The goal of this workshop is to teach EW2 professionals open and reproducible workflows by introducing tools like R or Github. Open source tools are commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop contents will introduce tools and best practices, giving attendees a foundation in the fundamentals of reproducible workflows.
 
 
 # Workshop structure
