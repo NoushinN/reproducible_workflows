@@ -20,7 +20,12 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
   * Evidence based decision making 
   * Efficiency 
   * Enable others to use our methods or help improve ours
-
+  
+- Barriers to open and reporducible workflows <!-- Monica -->
+  * Directives
+  * Approval of management
+  * Data privacy 
+  
 ## Tools
 - Tools for reproducible workflows in the project life cycle
   * Data  <!-- Monica -->
