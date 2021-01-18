@@ -1,4 +1,4 @@
-# Introduction to open and reproducible workflows
+# Introduction to open and reproducible workflows in the public service
 
 A repository to house materials for a workshop introducing participants to open and reproducible principles.
 
