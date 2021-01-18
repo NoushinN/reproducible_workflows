@@ -28,33 +28,33 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
   
 ## Tools
 - Tools for reproducible workflows in the project life cycle
-  * Data  <!-- Monica -->
+  * Data  <!-- Noushin -->
     * Shared drive/LAN/Sharepoint
     * Google sheets
     * Open govenment portal 
     * GitHub
-  * Methods <!-- Noushin -->
+  * Methods <!-- Monica -->
     * GCconnex
     * Protocols.io
     * GitHub 
-  * Result <!-- Monica -->
+  * Result <!-- Noushin -->
     * Shared drive/LAN/Sharepoint 
     * Google docs 
     * Github 
-  * Communication product  <!-- Noushin -->
+  * Communication product  <!-- Monica -->
     * Cochrane reports
     * Open access publications
     * Public talks 
     * Media 
     * Github 
-  * Giving and receiving credit <!-- Monica -->
+  * Giving and receiving credit <!-- Noushin -->
     * Code licences (MIT/Open Canada) 
     * Information licences (Creative Commons) 
     * Github 
     
 - Questions? ☕
 
-## Holy Grail 
+## Holy Grail <!-- Noushin and Monica -->
  - Reproducible projects 
     * What is a reproducible project? 
      * Auditable, Accurate, Collaborative 
@@ -64,9 +64,6 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
      * GitHub
      * Markdown  
      
-## Dip your toes into R 
-- Optional if workshop is 1:30
-
 # Workshop schedule
 
 | Activity    | Start Time | End time |
