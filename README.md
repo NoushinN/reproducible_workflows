@@ -6,8 +6,12 @@ This workshop is created for the [Experimentation Works (EW)](https://www.canada
 
 The goal of this workshop is to teach EW2 professionals open and reproducible workflows by introducing tools like R or Github. Open source tools are commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop contents will introduce tools and best practices, giving attendees a foundation in the fundamentals of reproducible workflows.
 
+##We will be using slido for this workshop open this link app.sli.do/event/cco9xulx/ or use particppant code: 45527
 
 # Workshop structure
+
+*LIVE POLL TIME!*
+
 ## Introduction 
 - What's the problem?  <!-- Monica -->
   * Government is closed 
@@ -20,12 +24,14 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
   * Evidence based decision making 
   * Efficiency 
   * Enable others to use our methods or help improve ours
+
+*LIVE POLL TIME*
   
 - Barriers to open and reporducible workflows <!-- Monica -->
   * Directives
   * Approval of management
   * Data privacy 
-  
+
 ## Tools
 - Tools for reproducible workflows in the project life cycle
   * Data  <!-- Noushin -->
@@ -51,8 +57,10 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
     * Code licences (MIT/Open Canada) 
     * Information licences (Creative Commons) 
     * Github 
+
+*LIVE POLL TIME*
     
-- Questions? ☕
+- Questions? Unmute yourself or ask the question in slido ☕
 
 ## Holy Grail <!-- Noushin and Monica -->
  - Reproducible projects 
