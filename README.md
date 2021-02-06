@@ -21,7 +21,7 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
   
 - Open and reproducible workflows as a solution <!-- Noushin -->
   * Openness and transparency in government
-  * Evidence based decision making 
+  * Evidence-based decision making 
   * Efficiency 
   * Enable others to use our methods or help improve ours
 
@@ -86,6 +86,22 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
 
 ## Workshop organization
 - _Instructors_: [Noushin Nabavi](https://github.com/NoushinN), [Monica Granados](https://github.com/Monsauce)
+
+
+## Resources (blogs, sites, books, courses):
+- Matthew Shotwell's slides (2011) "Approaches and Barriers to Reproducible Practices in Biostatistics"
+- NIH Training Module: https://grants.nih.gov/reproducibility/module_1/presentation.html
+- Gandrud, Christopher. Reproducible Research with R and R Studio. CRC Press, 2013.
+- Xie, Yihui. Dynamic Documents with R and knitr. Vol. 29. CRC Press, 2013.
+- ROpenSci's blog post "Reproducible research is still a challenge" by R. FitzJohn, M. Pennell, A. Zanne, W. Cornwell, June 9, 2014
+- Karl Broman's class "Tools for Reproducible Research" at UWisconsin-Madison http://kbroman.org/Tools4RR/
+- "Reproducible Research" by Johns Hopkins on Coursera (Peng, Leek, Caffo) https://www.coursera.org/learn/reproducible-research
+- Stodden, Victoria, Friedrich Leisch, and Roger D. Peng, eds. Implementing reproducible research. CRC Press, 2014.
+- Learn git: https://try.github.io/levels/1/challenges/1
+- StackOverflow question "Why should I use version control?"
+
+
+
 
 ### Getting Help or Reporting an Issue
 
