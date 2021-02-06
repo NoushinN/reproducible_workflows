@@ -6,7 +6,7 @@ This workshop is created for the [Experimentation Works (EW)](https://www.canada
 
 The goal of this workshop is to teach EW2 professionals open and reproducible workflows by introducing tools like R or Github. Open source tools are commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop contents will introduce tools and best practices, giving attendees a foundation in the fundamentals of reproducible workflows.
 
-## We will be using slido for this workshop open this [link](https://app.sli.do/event/cco9xulx/live/polls) or use participant code #45527 on sli.do
+### We will be using slido for this workshop open this [link](https://app.sli.do/event/cco9xulx/live/polls) or use participant code #45527 on sli.do
 
 # Workshop structure
 
@@ -89,16 +89,16 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
 
 
 ## Resources (blogs, sites, books, courses):
-- Matthew Shotwell's slides (2011) "Approaches and Barriers to Reproducible Practices in Biostatistics"
-- NIH Training Module: https://grants.nih.gov/reproducibility/module_1/presentation.html
-- Gandrud, Christopher. Reproducible Research with R and R Studio. CRC Press, 2013.
-- Xie, Yihui. Dynamic Documents with R and knitr. Vol. 29. CRC Press, 2013.
-- ROpenSci's blog post "Reproducible research is still a challenge" by R. FitzJohn, M. Pennell, A. Zanne, W. Cornwell, June 9, 2014
-- Karl Broman's class "Tools for Reproducible Research" at UWisconsin-Madison http://kbroman.org/Tools4RR/
-- "Reproducible Research" by Johns Hopkins on Coursera (Peng, Leek, Caffo) https://www.coursera.org/learn/reproducible-research
-- Stodden, Victoria, Friedrich Leisch, and Roger D. Peng, eds. Implementing reproducible research. CRC Press, 2014.
-- Learn git: https://try.github.io/levels/1/challenges/1
-- StackOverflow question "Why should I use version control?"
+- Matthew Shotwell's slides (2011): ["Approaches and Barriers to Reproducible Practices in Biostatistics"]https://rstudio-pubs-static.s3.amazonaws.com/177032_7be0bffdc2274d679c03b7228ac7b91f.html)
+- NIH Training Module: [Reproducibility through rigor and transparenct](https://grants.nih.gov/reproducibility/module_1/presentation.html)
+- Gandrud, Christopher. [Reproducible Research with R and R Studio](https://englianhu.files.wordpress.com/2016/01/reproducible-research-with-r-and-studio-2nd-edition.pdf), CRC Press, 2013.
+- Xie, Yihui. [Dynamic Documents with R and knitr](http://static.latexstudio.net/wp-content/uploads/2014/03/DDR-Yihui-Xie-Chap1-3.pdf), Vol. 29. CRC Press, 2013.
+- ROpenSci's blog post: ["Reproducible research is still a challenge"](https://ropensci.org/blog/2014/06/09/reproducibility/), by R. FitzJohn, M. Pennell, A. Zanne, W. Cornwell, June 9, 2014
+- Karl Broman's class ["Tools for Reproducible Research"](http://kbroman.org/Tools4RR/) at UWisconsin-Madison. 
+- "Reproducible Research" by Johns Hopkins on [Coursera](https://www.coursera.org/learn/reproducible-research) (Peng, Leek, Caffo) 
+- Stodden, Victoria, Friedrich Leisch, and Roger D. Peng, eds. [Implementing reproducible research](https://www.jstatsoft.org/article/view/v061b02/v61b02.pdf), CRC Press, 2014.
+- Learn git: [link](https://try.github.io/levels/1/challenges/1)
+- StackOverflow question ["Why should I use version control?"](https://stackoverflow.com/questions/1408450/why-should-i-use-version-control#:~:text=Version%20control%20gives%20you%20the,using%20tools.)
 
 
 
