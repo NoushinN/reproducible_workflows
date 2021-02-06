@@ -97,8 +97,8 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
 - Karl Broman's class ["Tools for Reproducible Research"](http://kbroman.org/Tools4RR/) at UWisconsin-Madison. 
 - "Reproducible Research" by Johns Hopkins on [Coursera](https://www.coursera.org/learn/reproducible-research) (Peng, Leek, Caffo) 
 - Stodden, Victoria, Friedrich Leisch, and Roger D. Peng, eds. [Implementing reproducible research](https://www.jstatsoft.org/article/view/v061b02/v61b02.pdf), CRC Press, 2014.
-- Learn git: [link](https://try.github.io/levels/1/challenges/1)
 - StackOverflow question ["Why should I use version control?"](https://stackoverflow.com/questions/1408450/why-should-i-use-version-control#:~:text=Version%20control%20gives%20you%20the,using%20tools.)
+- Learn git on github: [link](https://try.github.io/levels/1/challenges/1)
 
 
 
