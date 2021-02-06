@@ -89,7 +89,7 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
 
 
 ## Resources (blogs, sites, books, courses):
-- Matthew Shotwell's slides (2011): ["Approaches and Barriers to Reproducible Practices in Biostatistics"]https://rstudio-pubs-static.s3.amazonaws.com/177032_7be0bffdc2274d679c03b7228ac7b91f.html)
+- Matthew Shotwell's slides (2011): ["Approaches and Barriers to Reproducible Practices in Biostatistics"](https://rstudio-pubs-static.s3.amazonaws.com/177032_7be0bffdc2274d679c03b7228ac7b91f.html)
 - NIH Training Module: [Reproducibility through rigor and transparenct](https://grants.nih.gov/reproducibility/module_1/presentation.html)
 - Gandrud, Christopher. [Reproducible Research with R and R Studio](https://englianhu.files.wordpress.com/2016/01/reproducible-research-with-r-and-studio-2nd-edition.pdf), CRC Press, 2013.
 - Xie, Yihui. [Dynamic Documents with R and knitr](http://static.latexstudio.net/wp-content/uploads/2014/03/DDR-Yihui-Xie-Chap1-3.pdf), Vol. 29. CRC Press, 2013.
