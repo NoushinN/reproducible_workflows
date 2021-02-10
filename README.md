@@ -18,6 +18,8 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
   * The public doesn't know how decisions are made
   * Duplication of work within the government 
   * Types of reproducibility
+ 
+*LIVE POLL TIME*
   
 - Open and reproducible workflows as a solution <!-- Noushin -->
   * Openness and transparency in government
@@ -25,8 +27,6 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
   * Efficiency 
   * Enable others to use our methods or help improve ours
 
-*LIVE POLL TIME*
-  
 - Barriers to open and reporducible workflows <!-- Monica -->
   * Directives
   * Approval of management
@@ -67,10 +67,7 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
     * What is a reproducible project? 
      * Auditable, Accurate, Collaborative 
      * Has programming language, code editor, version control software
-    * Examples
-    * Deep Dive
-     * GitHub
-     * Markdown  
+    * Example reporducible project with beavers!
      
 # Workshop schedule
 
