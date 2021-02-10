@@ -68,7 +68,9 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
      * Auditable, Accurate, Collaborative 
      * Has programming language, code editor, version control software
     * Example reporducible project with beavers!
-     
+
+*FINAL QUIZ!*
+
 # Workshop schedule
 
 | Activity    | Start Time | End time |
