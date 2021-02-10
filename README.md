@@ -62,6 +62,7 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
 *LIVE POLL TIME*
     
 - Questions? Unmute yourself or ask the question in slido ☕
+- Break time (Length to be determined)
 
 ## Holy Grail <!-- Noushin and Monica -->
  - Reproducible projects 
@@ -79,8 +80,9 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
 | Intro       | 00:00      | 00:10    |
 | Tools       | 00:10      | 00:30    |
 | Questions?  | 00:30      | 00:40    |
-| Holy Grail  | 00:40      | 00:60    |
-| Conclusion  | 00:60      | 00:80    |
+| Break       | 00:40      | 00:50    |
+| Holy Grail  | 00:50      | 00:80    |
+| Quiz +End   | 00:80      | 00:90    |
 
 
 ## Workshop organization
