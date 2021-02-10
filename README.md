@@ -80,8 +80,7 @@ The goal of this workshop is to teach EW2 professionals open and reproducible wo
 | Tools       | 00:10      | 00:30    |
 | Questions?  | 00:30      | 00:40    |
 | Holy Grail  | 00:40      | 00:60    |
-| Dip in      | 00:60      | 00:70    |
-| Conclusion  | 00:70      | 00:80    |
+| Conclusion  | 00:60      | 00:80    |
 
 
 ## Workshop organization
