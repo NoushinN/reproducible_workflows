@@ -84,9 +84,9 @@ d) Open/transparent. All the data and materials are available (as opposed to "av
 
 e) That is, either:
 
--- Another party (e.g., a reviewer) has successfully reproduced the results and certified them as such.
--- Logs demonstrate that key results were successfully created from the inputs.
--- The key results are linked to the data and code, so the relationship can be directly inspected.
+- Another party (e.g., a reviewer) has successfully reproduced the results and certified them as such.  
+- Logs demonstrate that key results were successfully created from the inputs.  
+- The key results are linked to the data and code, so the relationship can be directly inspected.  
 
 A final requirement, which is sometimes known as literate programming, is that:
 

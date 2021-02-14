@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.1.15)  13 FEB 2021 16:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.1.15)  13 FEB 2021 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,14 +890,39 @@ Underfull \hbox (badness 1509) in paragraph at lines 94--96
 epts of
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
 [5
 
-] [6]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
+
+ []
+
+[6]
 Chapter 2.
 [7
 
 ]
-Overfull \hbox (7.40703pt too wide) in paragraph at lines 166--171
+Overfull \hbox (7.40703pt too wide) in paragraph at lines 168--173
 \TU/lmr/m/n/10 Actual results themselves, which includes: - Tables - Visualizat
 ions/figures/graphs
  []
@@ -916,7 +941,7 @@ Chapter 4.
 Chapter 5.
 
 Package natbib Warning: Citation `MikeKane' on page 15 undefined on input line 
-344.
+346.
 
 [15] [16]
 Chapter 6.
@@ -931,38 +956,38 @@ Chapter 7.
 ]
 Chapter 8.
 
-Underfull \hbox (badness 1997) in paragraph at lines 609--611
+Underfull \hbox (badness 1997) in paragraph at lines 611--613
 []\TU/lmr/m/n/10 BC-Gov framework for github []$[][][][][] [] [] [] [][][][][][
 ] [] [][][] [] [][][][][] [] [][] [][] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 615--617
+Underfull \hbox (badness 3039) in paragraph at lines 617--619
 []\TU/lmr/m/n/10 Data cleaning with R and tidyverse: []$[][][][][] [] [] [] [][
 ][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--617
+Underfull \hbox (badness 10000) in paragraph at lines 617--619
 [][][] [] [][][][] [][] [][][][][][][][] [][] [][][][] [][] [] [][] [][][] [][]
  [][][] [][] [][][][][][][][][] [][] [][][][][][][][][] [][] [][][][][][][] [][
 ] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 623--625
+Underfull \hbox (badness 4366) in paragraph at lines 625--627
 []\TU/lmr/m/n/10 Challenge to scientists: does your ten-year-old code still run
 ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--625
+Underfull \hbox (badness 10000) in paragraph at lines 625--627
 []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][] [] [][][][][][][][] [] 
 [][][][][][] [][] [][][] [][] [][][][][] [][] [] [] [][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--625
+Underfull \hbox (badness 10000) in paragraph at lines 625--627
 [][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][
 ] [] [][][][][][][][][][][] [] [][][][][][][][] []
  []
