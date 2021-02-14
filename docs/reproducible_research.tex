@@ -162,11 +162,58 @@ This is a way for researchers to verify that their own results are true and are 
 
 The replication crisis (or replicability crisis or reproducibility crisis) is, as of 2020, an ongoing methodological crisis in which it has been found that many scientific studies are difficult or impossible to replicate or reproduce. The replication crisis affects the social sciences and medicine most severely.
 
+\hypertarget{the-problem-in-the-context-of-public-service}{%
+\section{The problem in the context of public service}\label{the-problem-in-the-context-of-public-service}}
+
+\begin{itemize}
+\tightlist
+\item
+  Government is closed\\
+\item
+  The public doesn't know how decisions are made
+\item
+  Duplication of work within the government
+\item
+  Types of reproducibility
+\end{itemize}
+
+\hypertarget{the-solution-in-the-context-of-public-service}{%
+\section{The solution in the context of public service}\label{the-solution-in-the-context-of-public-service}}
+
+\begin{itemize}
+\tightlist
+\item
+  Openness and transparency in government\\
+\item
+  Evidence based decision making\\
+\item
+  Efficiency\\
+\item
+  Enable others to use our methods or help improve ours
+\end{itemize}
+
+\hypertarget{barriers-to-open-and-reproducible-workflows}{%
+\section{Barriers to open and reproducible workflows}\label{barriers-to-open-and-reproducible-workflows}}
+
+\begin{itemize}
+\tightlist
+\item
+  Directives\\
+\item
+  Approval of management\\
+\item
+  Data privacy and security policies\\
+\item
+  Culture
+\end{itemize}
+
 \hypertarget{what-needs-to-be-reproduced}{%
 \section{What needs to be reproduced?}\label{what-needs-to-be-reproduced}}
 
-Actual results themselves, which includes:
-- Tables
+For evidence-informed decision making, results need to be reproducible.
+
+The results include:
+- Stattistical and inferential tables
 - Visualizations/figures/graphs
 - Values reported in the text
 - The statistical evidence in support of the findings (e.g., p-values, confidence intervals, credible intervals).
@@ -175,10 +222,10 @@ Actual results themselves, which includes:
 \section{Motivation}\label{motivation}}
 
 Some aspects to consider that may make your experiments, processes, and reports more reproducible:
-1. Don't Read Between the Lines. \ldots{}
-2. Be Strict. \ldots{}
-3. Keep Things Transparent. \ldots{}
-4. Collaborate. \ldots{}
+1. Don't Read Between the Lines. \ldots{}\\
+2. Be Strict. \ldots{}\\
+3. Keep Things Transparent. \ldots{}\\
+4. Collaborate. \ldots{}\\
 5. Automate Your Processes.
 
 \hypertarget{benefits-of-reproducubility}{%
@@ -239,9 +286,15 @@ Some aspects to consider that may make your experiments, processes, and reports 
   That is, either:
 \end{enumerate}
 
--- Another party (e.g., a reviewer) has successfully reproduced the results and certified them as such.
--- Logs demonstrate that key results were successfully created from the inputs.
--- The key results are linked to the data and code, so the relationship can be directly inspected.
+\begin{itemize}
+\tightlist
+\item
+  Another party (e.g., a reviewer) has successfully reproduced the results and certified them as such.\\
+\item
+  Logs demonstrate that key results were successfully created from the inputs.\\
+\item
+  The key results are linked to the data and code, so the relationship can be directly inspected.
+\end{itemize}
 
 A final requirement, which is sometimes known as literate programming, is that:
 
@@ -257,73 +310,142 @@ A final requirement, which is sometimes known as literate programming, is that:
 \chapter{Tools for reproducible projects}\label{tools-for-reproducible-projects}}
 
 ``An article about computational science in a scientific publication is not the scholarship itself,
-it is merely advertising of the scholarship. The
-actual scholarship is the complete software development environment and the complete set
-of instructions which generated the figures.''
---- Jonathan Buckheit and David Donoho,
-paraphrasing Jon Claerbout
+it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.''
+--- Jonathan Buckheit and David Donoho, paraphrasing Jon Claerbout
 
 ``In 2002, I felt like I would just remember everything forever,'' Karl Broman, a biostatistician at the University of Wisconsin, Madison. ``It was only later that it became clear that you start to forget things within a month.''
+
+\hypertarget{barriers}{%
+\section{Barriers}\label{barriers}}
+
+\begin{itemize}
+\tightlist
+\item
+  Human subject data or proprietary code aren't shared and we need to implement creative solutions
+\item
+  Journals and funders don't reward reproducibility
+\item
+  Analysts need to be taught reproducible methodology and there is a steep learning curve
+\item
+  Need to make these efforts common place
+\item
+  Software changes, new versions are released and older code breaks.
+\item
+  Files are removed or moved and all the code breaks.
+\item
+  One file is updated but the rest of the code/files are not updated.
+\item
+  One forgets which files depend on which other files, or what has been changed
+\end{itemize}
 
 \hypertarget{tools}{%
 \section{Tools}\label{tools}}
 
+``Your primary collaborator is yourself 6 months from now, and your past self doesn't answer emails.'' - software carpentry
+
+In this section, the tools that make reproducibility and open workflows easier are divided into four categories and these are not exhaustive. The categories include tools for data, methods, results, and communication products.
+
+The basics of research (data) management can be applied to every research project. These concepts include:
+i) storing data carefully and securely (according to the appropriate standards in the case of sensitive data)\\
+ii) backing up frequently and in at least two separate locations\\
+iii) using a file naming convention so that others within and outside a project can understand a file's content.
+
+\hypertarget{data}{%
+\subsection{Data}\label{data}}
+
+The question we can ask ourselves is how can we make the data FAIR: findable, accessible, interoperable, and reusable?
+
 \begin{itemize}
 \tightlist
 \item
-  R, Rstudio, python, open-refine, good tables
+  Findable: e.g.~Make data available in trusted data repository\\
 \item
-  notebooks (Rmarkdown, Jupyter, holepunch)
+  Accessible (store in open non-proprietary platforms/formats): e.g.~include comprehensive metadata
+\item
+  Interoperable (standardized and has identifiers): e.g.~store in open (non-proprietary) formats
+\item
+  Reusable (open with comprehensive metadata): For open data, attach a licence or rights waiver, or a permanent identifier (i.e.~DOI)
 \end{itemize}
 
-\hypertarget{components-to-control}{%
-\section{Components to control}\label{components-to-control}}
+Some tools include:\\
+- Shared drive/Local Area Network (LAN)/Sharepoint\\
+- Google sheets / OpenRefine\\
+- Open government portal\\
+- GitHub
+
+\hypertarget{methods}{%
+\subsection{Methods}\label{methods}}
+
+How can we make the process by which we do our work more open and reproducible? How could others access this work?
+
+Some tools include:\\
+- GCconnex\\
+- Protocols.io\\
+- GitHub
+
+\hypertarget{results}{%
+\subsection{Results}\label{results}}
+
+How can we adequately share the results with team members and tweak the methods to answer new questions/test new hypotheses?
+
+Some tool examples include:\\
+- Shared drive/LAN/Sharepoint\\
+- Google docs\\
+- Github
+
+\hypertarget{communication-products}{%
+\subsection{Communication products}\label{communication-products}}
+
+Once our work is done - how can we make it most accessible?
 
 \begin{itemize}
 \tightlist
 \item
-  operating system (and libraries)
+  Cochrane reports\\
 \item
-  R/Python versions
+  Open access publications\\
 \item
-  Package versions
+  Public talks\\
+\item
+  Media/Social Media\\
+\item
+  Github
 \end{itemize}
 
-if all of these are controlled, the analysis will always be reproducible
+Other considerations:\\
+1. Share data, software, workflows, methods and results in open trusted repositories
+2. Persistent links, permanent identifiers for data, code, digital artifacts upon which the results depend
+3. Enable credit for shared digital scholarly objects with citations
+4. Adequately document to facilitate reuse
+5. Use Open Licensing
+6. Journals should conduct a reproducibility check
+7. Funding agencies should instigate new research programs and pilot studies
 
-Tools that help:
-- docker: complete control of operating system
-- package snapshots
-- packrat
+\texttt{Stodden,\ McNutt,\ Bailey,\ Deelman,\ Gil,\ Hanson,\ Heroux,\ Ioannidis,\ and\ Taufer\ (2016)\ in\ Science\ Policy\ Forum}
 
-\hypertarget{reproducible-research-project-structure}{%
-\chapter{Reproducible research project structure}\label{reproducible-research-project-structure}}
+\hypertarget{giving-and-receiving-credits}{%
+\chapter{Giving and receiving credits}\label{giving-and-receiving-credits}}
 
-\hypertarget{setting-up-an-rproject-notebook}{%
-\section{Setting up an Rproject / Notebook}\label{setting-up-an-rproject-notebook}}
+How do we make sure that others credit our work and we credit others?
 
-\hypertarget{data-component}{%
-\section{Data component}\label{data-component}}
+We've often heard of Copyright, the authors' and composers' rights represented by the symbol ©.
+It means All rights reserved therefore, we can't do anything with work that's copyright protected, unless we get permission directly from the author or composer, his or her representative (editor) or collective societies entrusted by authors and composers to manage their rights.
+
+On the other hand, there exists the Copyleft, giving permission to anyone to copy, broadcast, use, modify and distribute work as long as some rights are reserved fairly. The author who chooses Copyleft lets other creators of the world know that they can do what they want with his or her work (within the limits of morality).
+
+Although Copyright and Copyleft are on opposite sides of the spectrum, there are additional parameters we can use. For instance, Creative Commons, provides the spectrum and helps us legally share our knowledge and creativity to build a more equitable, accessible, and innovative world --- unlocking the full potential of the internet to drive a new era of development, growth and productivity.
+
+Creative Commons lets you create licenses by choosing one or more permissions based on parameters like copying your work, modifying (remixing) it, sharing it, broadcasting it, distributing it, reusing it, and its attribution (giving due credit to its author). Different combinations are available.
 
 \begin{itemize}
+\tightlist
 \item
-  Tidy data principles
+  Open source code licences (MIT/Open Canada)
 \item
-  tidyr and dplyr
+  Information licences (Creative Commons)
 \item
-  what are data structures?
-\item
-  what are data frames?
-\item
-  tidy principles
-\item
-  missingness
-\item
-  demo with data
+  Github
 \end{itemize}
-
-\hypertarget{documentation-component}{%
-\section{Documentation component}\label{documentation-component}}
 
 \hypertarget{introduction-to-markdown}{%
 \chapter{Introduction to markdown}\label{introduction-to-markdown}}
@@ -395,7 +517,7 @@ Tools that help:
 \begin{itemize}
 \tightlist
 \item
-  demo one example
+  End-to-end demonstration of a reproducible project
 \end{itemize}
 
 \hypertarget{git-commands}{%
@@ -593,8 +715,32 @@ Note on adding files to the remote:
   \href{http://swcarpentry.github.io/git-novice/}{Version Control with Git by Software Carpentry} adapted under the \href{https://creativecommons.org/licenses/by/4.0/}{Attribution 4.0 International (CC BY 4.0 license}
 \end{itemize}
 
-\hypertarget{bibliography}{%
-\chapter{Bibliography}\label{bibliography}}
+\hypertarget{resources-blogs-sites-books-courses}{%
+\chapter{Resources (blogs, sites, books, courses):}\label{resources-blogs-sites-books-courses}}
+
+\begin{itemize}
+\tightlist
+\item
+  Matthew Shotwell's slides (2011): \href{https://rstudio-pubs-static.s3.amazonaws.com/177032_7be0bffdc2274d679c03b7228ac7b91f.html}{``Approaches and Barriers to Reproducible Practices in Biostatistics''}
+\item
+  NIH Training Module: \href{https://grants.nih.gov/reproducibility/module_1/presentation.html}{Reproducibility through rigor and transparenct}
+\item
+  Gandrud, Christopher. \href{https://englianhu.files.wordpress.com/2016/01/reproducible-research-with-r-and-studio-2nd-edition.pdf}{Reproducible Research with R and R Studio}, CRC Press, 2013.
+\item
+  Xie, Yihui. \href{http://static.latexstudio.net/wp-content/uploads/2014/03/DDR-Yihui-Xie-Chap1-3.pdf}{Dynamic Documents with R and knitr}, Vol. 29. CRC Press, 2013.
+\item
+  ROpenSci's blog post: \href{https://ropensci.org/blog/2014/06/09/reproducibility/}{``Reproducible research is still a challenge''}, by R. FitzJohn, M. Pennell, A. Zanne, W. Cornwell, June 9, 2014
+\item
+  Karl Broman's class \href{http://kbroman.org/Tools4RR/}{``Tools for Reproducible Research''} at UWisconsin-Madison.
+\item
+  ``Reproducible Research'' by Johns Hopkins on \href{https://www.coursera.org/learn/reproducible-research}{Coursera} (Peng, Leek, Caffo)
+\item
+  Stodden, Victoria, Friedrich Leisch, and Roger D. Peng, eds.~\href{https://www.jstatsoft.org/article/view/v061b02/v61b02.pdf}{Implementing reproducible research}, CRC Press, 2014.
+\item
+  StackOverflow question \href{https://stackoverflow.com/questions/1408450/why-should-i-use-version-control\#:~:text=Version\%20control\%20gives\%20you\%20the,using\%20tools.}{``Why should I use version control?''}
+\item
+  Learn git on github: \href{https://try.github.io/levels/1/challenges/1}{link}
+\end{itemize}
 
 \hypertarget{resources-1}{%
 \chapter{Resources}\label{resources-1}}

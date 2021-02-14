@@ -6,6 +6,9 @@ terminology-distinctions
 reproducible-versus-replicable
 reproducible-versus-repeatable
 reproducibility-crisis
+the-problem-in-the-context-of-public-service
+the-solution-in-the-context-of-public-service
+barriers-to-open-and-reproducible-workflows
 what-needs-to-be-reproduced
 motivation
 benefits-of-reproducubility
@@ -13,12 +16,13 @@ how-to-make-research-reproducible
 requirements-for-reproducibility
 additional-requirements
 tools-for-reproducible-projects
+barriers
 tools
-components-to-control
-reproducible-research-project-structure
-setting-up-an-rproject-notebook
-data-component
-documentation-component
+data
+methods
+results
+communication-products
+giving-and-receiving-credits
 introduction-to-markdown
 rmarkdown-and-usage
 computation-components
@@ -29,5 +33,5 @@ git-commands
 git-terminology
 git-commands-1
 resources
-bibliography
+resources-blogs-sites-books-courses
 resources-1

@@ -35,4 +35,4 @@ title: "Markdown for reproducible research"
 - Provide interpretability and facilitate reproducibility
 
 ## Demo 
-- demo one example
+- End-to-end demonstration of a reproducible project

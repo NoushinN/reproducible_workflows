@@ -35,10 +35,31 @@ This is a way for researchers to verify that their own results are true and are 
 
 The replication crisis (or replicability crisis or reproducibility crisis) is, as of 2020, an ongoing methodological crisis in which it has been found that many scientific studies are difficult or impossible to replicate or reproduce. The replication crisis affects the social sciences and medicine most severely.
 
-## What needs to be reproduced?
+## The problem in the context of public service
+- Government is closed  
+- The public doesn't know how decisions are made
+- Duplication of work within the government
+- Types of reproducibility
 
-Actual results themselves, which includes:
-- Tables
+
+## The solution in the context of public service
+- Openness and transparency in government  
+- Evidence based decision making  
+- Efficiency  
+- Enable others to use our methods or help improve ours  
+
+## Barriers to open and reproducible workflows
+- Directives  
+- Approval of management  
+- Data privacy and security policies  
+- Culture  
+
+
+## What needs to be reproduced?
+For evidence-informed decision making, results need to be reproducible. 
+
+The results include:
+- Stattistical and inferential tables
 - Visualizations/figures/graphs
 - Values reported in the text
 - The statistical evidence in support of the findings (e.g., p-values, confidence intervals, credible intervals).
@@ -46,11 +67,11 @@ Actual results themselves, which includes:
 ## Motivation
 
 Some aspects to consider that may make your experiments, processes, and reports more reproducible:
-1. Don't Read Between the Lines. ...
-2. Be Strict. ...
-3. Keep Things Transparent. ...
-4. Collaborate. ...
-5. Automate Your Processes.
+1. Don't Read Between the Lines. ...   
+2. Be Strict. ...   
+3. Keep Things Transparent. ...    
+4. Collaborate. ...    
+5. Automate Your Processes.    
 
 ## Benefits of reproducubility
 

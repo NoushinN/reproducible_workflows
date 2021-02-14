@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.1.15)  13 FEB 2021 16:34
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.1.15)  13 FEB 2021 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,72 +922,154 @@ Chapter 2.
 [7
 
 ]
-Overfull \hbox (7.40703pt too wide) in paragraph at lines 168--173
-\TU/lmr/m/n/10 Actual results themselves, which includes: - Tables - Visualizat
-ions/figures/graphs
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
+
  []
 
-[8] [9] [10
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 215--220
+[]\TU/lmr/m/n/10 The results include: - Stattistical and inferential tables - V
+isualiza-
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
+
+ []
+
+[10]
+Chapter 3.
+
+Underfull \vbox (badness 4479) has occurred while \output is active []
+
+[11
 
 ]
-Chapter 3.
-[11] [12
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
+
+ []
+
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+[]\TU/lmtt/m/n/10 Stodden, McNutt, Bailey, Deelman, Gil, Hanson, Heroux, Ioanni
+dis,
+ []
+
+[13] [14
 
 ]
 Chapter 4.
-[13] [14
+[15] [16
 
 ]
 Chapter 5.
 
-Package natbib Warning: Citation `MikeKane' on page 15 undefined on input line 
-346.
+Package natbib Warning: Citation `MikeKane' on page 17 undefined on input line 
+468.
 
-[15] [16]
+[17] [18]
 Chapter 6.
-[17
+[19
 
-] [18] [19] [20]
+] [20] [21] [22]
 Chapter 7.
-[21
+[23
 
-] [22
+] [24
 
 ]
 Chapter 8.
 
-Underfull \hbox (badness 1997) in paragraph at lines 611--613
+Underfull \hbox (badness 1997) in paragraph at lines 757--759
 []\TU/lmr/m/n/10 BC-Gov framework for github []$[][][][][] [] [] [] [][][][][][
 ] [] [][][] [] [][][][][] [] [][] [][] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 617--619
+Underfull \hbox (badness 3039) in paragraph at lines 763--765
 []\TU/lmr/m/n/10 Data cleaning with R and tidyverse: []$[][][][][] [] [] [] [][
 ][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--619
+Underfull \hbox (badness 10000) in paragraph at lines 763--765
 [][][] [] [][][][] [][] [][][][][][][][] [][] [][][][] [][] [] [][] [][][] [][]
  [][][] [][] [][][][][][][][][] [][] [][][][][][][][][] [][] [][][][][][][] [][
 ] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 625--627
+Underfull \hbox (badness 4366) in paragraph at lines 771--773
 []\TU/lmr/m/n/10 Challenge to scientists: does your ten-year-old code still run
 ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--627
+Underfull \hbox (badness 10000) in paragraph at lines 771--773
 []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][] [] [][][][][][][][] [] 
 [][][][][][] [][] [][][] [][] [][][][][] [][] [] [] [][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--627
+Underfull \hbox (badness 10000) in paragraph at lines 771--773
 [][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][
 ] [] [][][][][][][][][][][] [] [][][][][][][][] []
  []
@@ -995,17 +1077,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 625--627
 
 Package natbib Warning: There were undefined citations.
 
-[23] (./reproducible_research.aux)
+[25] (./reproducible_research.aux)
 Package rerunfilecheck Info: File `reproducible_research.out' has not changed.
-(rerunfilecheck)             Checksum: DF73267A9C98CF7E1378189CBC86E540;5303.
+(rerunfilecheck)             Checksum: 312F76E7FF5B25670238ED8F85F474D8;5689.
  ) 
 Here is how much of TeX's memory you used:
- 18067 strings out of 479212
- 320310 string characters out of 5873449
- 807077 words of memory out of 5000000
- 37384 multiletter control sequences out of 15000+600000
- 409873 words of font info for 79 fonts, out of 8000000 for 9000
+ 18073 strings out of 479212
+ 320481 string characters out of 5873449
+ 807712 words of memory out of 5000000
+ 37389 multiletter control sequences out of 15000+600000
+ 409881 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  98i,6n,122p,671b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on reproducible_research.pdf (23 pages).
+Output written on reproducible_research.pdf (25 pages).
