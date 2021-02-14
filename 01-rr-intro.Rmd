@@ -7,6 +7,10 @@ title: "Introduction to reproducible research"
 
 The terms `reproducible research` was coined by Jon Claerbout in the 1980s when he writes an essay on [reproducible](http://sepwww.stanford.edu/sep/jon/reproducible.html) computational research, and describes the hurdles he faces when making a text book that incorporates text, data, and results in a stand-alone document. According to Claerbout's principle, 'scholarship does not only consist of theorems and proofs but also and perhaps even more important of data, computer code and a runtime environment which provides readers with the possibility to reproduce all tables and figures in an article'.
 
+This image by The Turing Way is a great representation of what Jon Claerbout may have had in mind:
+
+![](rr-presentation-figure/ReproducibleJourney.jpg)
+
 The need for reproducibility is increasing dramatically as data analyses become more complex and involve larger datasets, analysts, and more sophisticated computations. 
 
 
@@ -15,47 +19,47 @@ The need for reproducibility is increasing dramatically as data analyses become 
 According to a U.S. National Science Foundation (NSF) subcommittee on replicability in science, “reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.  This entails that a result obtained by an experiment or observational study should be achieved again with a high degree of agreement when the study is replicated with the same methodology by different researchers
 
 
-## Terminology distinctions
+### Terminology distinctions
 
 Reproducible research is sometimes known as reproducibility, reproducible statistical analysis, reproducible data analysis, reproducible reporting, and literate programming.
 
-## Reproducible versus replicable
+### Reproducible versus replicable
 
 Replicability means obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data.
 
 
-## Reproducible versus repeatable
+### Reproducible versus repeatable
 
 Repeatability measures the variation in measurements taken by a single instrument or person under the same conditions, while reproducibility measures whether an entire study or experiment can be reproduced in its entirety.
 
 This is a way for researchers to verify that their own results are true and are not just chance artifacts.
 
 
-## Reproducibility crisis
+### Reproducibility crisis
 
 The replication crisis (or replicability crisis or reproducibility crisis) is, as of 2020, an ongoing methodological crisis in which it has been found that many scientific studies are difficult or impossible to replicate or reproduce. The replication crisis affects the social sciences and medicine most severely.
 
-## The problem in the context of public service
+### The problem in the context of public service
 - Government is closed  
 - The public doesn't know how decisions are made
 - Duplication of work within the government
 - Types of reproducibility
 
 
-## The solution in the context of public service
+### The solution in the context of public service
 - Openness and transparency in government  
 - Evidence based decision making  
 - Efficiency  
 - Enable others to use our methods or help improve ours  
 
-## Barriers to open and reproducible workflows
+### Barriers to open and reproducible workflows
 - Directives  
 - Approval of management  
 - Data privacy and security policies  
 - Culture  
 
 
-## What needs to be reproduced?
+### What needs to be reproduced?
 For evidence-informed decision making, results need to be reproducible. 
 
 The results include:
@@ -64,7 +68,7 @@ The results include:
 - Values reported in the text
 - The statistical evidence in support of the findings (e.g., p-values, confidence intervals, credible intervals).
 
-## Motivation
+### Motivation
 
 Some aspects to consider that may make your experiments, processes, and reports more reproducible:
 1. Don't Read Between the Lines. ...   
@@ -93,7 +97,7 @@ Some aspects to consider that may make your experiments, processes, and reports 
 2) A complete set of instructions is provided explaining all steps used in the processing and analyzing the data.
 
 
-## Additional requirements
+### Additional requirements
 
 a) A set of files is provided containing the data and code, and it is possible to create the tables and any data-derived charts/graphics/visualizations by running the code.
 

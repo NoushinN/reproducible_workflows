@@ -10,7 +10,7 @@ it is merely advertising of the scholarship. The actual scholarship is the compl
 
 “In 2002, I felt like I would just remember everything forever,” Karl Broman, a biostatistician at the University of Wisconsin, Madison. “It was only later that it became clear that you start to forget things within a month.”
 
-## Barriers
+### Barriers
 - Human subject data or proprietary code aren't shared and we need to implement creative solutions 
 - Journals and funders don't reward reproducibility
 - Analysts need to be taught reproducible methodology and there is a steep learning curve
@@ -26,6 +26,8 @@ it is merely advertising of the scholarship. The actual scholarship is the compl
 "Your primary collaborator is yourself 6 months from now, and your past self doesn't answer emails." - software carpentry
 
 In this section, the tools that make reproducibility and open workflows easier are divided into four categories and these are not exhaustive. The categories include tools for data, methods, results, and communication products. 
+
+![](rr-presentation-figure/tools.png)
 
 The basics of research (data) management can be applied to every research project. These concepts include:
 i) storing data carefully and securely (according to the appropriate standards in the case of sensitive data)  
@@ -44,10 +46,13 @@ The question we can ask ourselves is how can we make the data FAIR: findable, ac
 
 
 Some tools include:   
-- Shared drive/Local Area Network (LAN)/Sharepoint    
+- Shared drive/Local Area Network (LAN)/Sharepoint  
+![](rr-presentation-figure/LAN.png)
+
 - Google sheets / OpenRefine  
 - Open government portal  
 - GitHub  
+![](rr-presentation-figure/Covid.png)
 
 
 ### Methods
@@ -58,6 +63,8 @@ How can we make the process by which we do our work more open and reproducible? 
 Some tools include:   
 - GCconnex   
 - Protocols.io  
+
+![](rr-presentation-figure/methods.png)
 - GitHub  
 
 ### Results
@@ -65,9 +72,12 @@ Some tools include:
 How can we adequately share the results with team members and tweak the methods to answer new questions/test new hypotheses?
 
 Some tool examples include:   
-- Shared drive/LAN/Sharepoint   
-- Google docs  
+- Shared drive/LAN/Sharepoint and connection with respective analytic/data science softwares   
+- Google docs and other microsoft suites   
+![](rr-presentation-figure/results1.png)
 - Github  
+![](rr-presentation-figure/results2.png)
+
 
 ### Communication products
 

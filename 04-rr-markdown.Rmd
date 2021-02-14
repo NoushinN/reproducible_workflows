@@ -36,3 +36,4 @@ title: "Markdown for reproducible research"
 
 ## Demo 
 - End-to-end demonstration of a reproducible project
+- Please refer to [Beaver.Rmd](Beavers.Rmd)

@@ -32,6 +32,5 @@ demo
 git-commands
 git-terminology
 git-commands-1
-resources
+references
 resources-blogs-sites-books-courses
-resources-1

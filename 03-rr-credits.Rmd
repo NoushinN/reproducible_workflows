@@ -14,9 +14,14 @@ On the other hand, there exists the Copyleft, giving permission to anyone to cop
 
 Although Copyright and Copyleft are on opposite sides of the spectrum, there are additional parameters we can use. For instance, Creative Commons, provides the spectrum and helps us legally share our knowledge and creativity to build a more equitable, accessible, and innovative world — unlocking the full potential of the internet to drive a new era of development, growth and productivity.
 
+![](rr-presentation-figure/rightleft.png)
+
 Creative Commons lets you create licenses by choosing one or more permissions based on parameters like copying your work, modifying (remixing) it, sharing it, broadcasting it, distributing it, reusing it, and its attribution (giving due credit to its author). Different combinations are available.
 
 - Open source code licences (MIT/Open Canada)
 - Information licences (Creative Commons)
-- Github 
+![](rr-presentation-figure/cc.png)
+
+- Github (other examples can be found [here](https://2015.igem.org/Team:Cambridge-JIC/OpenHardwareRevolution))
+![](rr-presentation-figure/opensource.png)
 

@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.1.15)  13 FEB 2021 17:21
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.13)  13 FEB 2021 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **reproducible_research.tex
 (./reproducible_research.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-01-09> xparse <2020-03-03> (/Users/noushinnabavi/Lib
-rary/TinyTeX/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2021-02-06> (/Users/noushinnabavi/Library/TinyTeX/texmf-d
+ist/tex/latex/base/book.cls
 Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
@@ -136,14 +136,14 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode
 -math.sty (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/e
 xpl3.sty
-Package: expl3 2021-01-09 L3 programming layer (loader) 
+Package: expl3 2021-02-06 L3 programming layer (loader) 
 
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-
 xetex.def
-File: l3backend-xetex.def 2021-01-09 L3 backend support: XeTeX
+File: l3backend-xetex.def 2021-02-06 L3 backend support: XeTeX
 (|extractbb --version)
 \c__kernel_sys_dvipdfmx_version_int=\count194
-\l__kernel_color_stack_int=\count195
+\l__color_backend_stack_int=\count195
 \g__graphics_track_int=\count196
 \l__pdf_internal_box=\box49
 \g__pdf_backend_object_int=\count197
@@ -159,13 +159,13 @@ TeX
 
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xp
 arse.sty
-Package: xparse 2020-10-27 L3 Experimental document command parser
-
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xp
-arse-generic.tex))
+arse-2020-10-01.sty
+(/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xp
+arse-generic.tex)))
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/
 l3keys2e.sty
-Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.st
 y
@@ -274,7 +274,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.st
 y
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
 
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexc
 mds.sty
@@ -311,7 +311,12 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 \Hy@linkcounter=\count283
 \Hy@pagecounter=\count284
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+)
+(/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-la
+ngpatches.def
+File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
+nguages
 )
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.st
 y
@@ -322,23 +327,23 @@ sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count285
-Package hyperref Info: Option `unicode' set `true' on input line 4338.
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
+Package hyperref Info: Bookmarks ON on input line 4445.
 \c@Hy@tempcnt=\count286
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
+LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen153
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -351,15 +356,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count287
 \Field@Width=\dimen154
 \Fld@charsize=\dimen155
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
 
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.st
 y
@@ -373,7 +378,7 @@ with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+File: hxetex.def 2021-02-10 v7.00j Hyperref driver for XeTeX
 
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringen
 c.sty
@@ -799,7 +804,7 @@ ern Roman (RS)
 Package hyperref Info: Link coloring OFF on input line 82.
 
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (/Users/noushinnabavi/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.st
 y
@@ -878,11 +883,13 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 2.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 2.
-[3])
+)
 \tf@toc=\write4
 \openout4 = `reproducible_research.toc'.
 
-[4]
+[3] [4
+
+]
 Chapter 1.
 
 Underfull \hbox (badness 1509) in paragraph at lines 94--96
@@ -895,9 +902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
 
-[5
-
-]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
@@ -919,20 +924,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
 [6]
 Chapter 2.
+File: rr-presentation-figure/ReproducibleJourney.jpg Graphic file (type bmp)
+<rr-presentation-figure/ReproducibleJourney.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [7
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
+] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
@@ -942,12 +942,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--192
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
@@ -957,119 +957,188 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--207
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 215--220
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 219--224
 []\TU/lmr/m/n/10 The results include: - Stattistical and inferential tables - V
 isualiza-
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 292--294
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--296
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
-[10]
-Chapter 3.
-
-Underfull \vbox (badness 4479) has occurred while \output is active []
-
-[11
+[11] [12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 361--363
+Chapter 3.
+
+Underfull \vbox (badness 7397) has occurred while \output is active []
+
+[13]
+File: rr-presentation-figure/tools.png Graphic file (type bmp)
+<rr-presentation-figure/tools.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
+
+ []
+
+File: rr-presentation-figure/LAN.png Graphic file (type bmp)
+<rr-presentation-figure/LAN.png>
+
+Underfull \vbox (badness 8019) has occurred while \output is active []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
 
  []
 
 
-Underfull \vbox (badness 1097) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 385--387
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+ []
+
+File: rr-presentation-figure/Covid.png Graphic file (type bmp)
+<rr-presentation-figure/Covid.png>
+File: rr-presentation-figure/methods.png Graphic file (type bmp)
+<rr-presentation-figure/methods.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[15]
+File: rr-presentation-figure/results1.png Graphic file (type bmp)
+<rr-presentation-figure/results1.png>
+File: rr-presentation-figure/results2.png Graphic file (type bmp)
+<rr-presentation-figure/results2.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--414
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
+Underfull \hbox (badness 10000) in paragraph at lines 427--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
+Underfull \hbox (badness 10000) in paragraph at lines 429--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 []\TU/lmtt/m/n/10 Stodden, McNutt, Bailey, Deelman, Gil, Hanson, Heroux, Ioanni
 dis,
  []
 
-[13] [14
+[17] [18
 
 ]
 Chapter 4.
-[15] [16
+File: rr-presentation-figure/rightleft.png Graphic file (type bmp)
+<rr-presentation-figure/rightleft.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[19]
+File: rr-presentation-figure/cc.png Graphic file (type bmp)
+<rr-presentation-figure/cc.png>
+
+Overfull \hbox (181.25673pt too wide) in paragraph at lines 465--468
+[]\TU/lmr/m/n/10 Information licences (Creative Commons) [] 
+ []
+
+File: rr-presentation-figure/opensource.png Graphic file (type bmp)
+<rr-presentation-figure/opensource.png>
+
+Overfull \hbox (185.2022pt too wide) in paragraph at lines 468--470
+[]\TU/lmr/m/n/10 Github (other examples can be found []here[]) [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[20] [21] [22
 
 ]
 Chapter 5.
 
-Package natbib Warning: Citation `MikeKane' on page 17 undefined on input line 
-468.
+Package natbib Warning: Citation `MikeKane' on page 23 undefined on input line 
+490.
 
-[17] [18]
+[23] [24]
 Chapter 6.
-[19
+[25
 
-] [20] [21] [22]
-Chapter 7.
-[23
-
-] [24
+] [26] [27] [28
 
 ]
-Chapter 8.
+Chapter 7.
 
-Underfull \hbox (badness 1997) in paragraph at lines 757--759
+Underfull \hbox (badness 1997) in paragraph at lines 774--776
 []\TU/lmr/m/n/10 BC-Gov framework for github []$[][][][][] [] [] [] [][][][][][
 ] [] [][][] [] [][][][][] [] [][] [][] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 763--765
+Underfull \hbox (badness 3039) in paragraph at lines 780--782
 []\TU/lmr/m/n/10 Data cleaning with R and tidyverse: []$[][][][][] [] [] [] [][
 ][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 763--765
+Underfull \hbox (badness 10000) in paragraph at lines 780--782
 [][][] [] [][][][] [][] [][][][][][][][] [][] [][][][] [][] [] [][] [][][] [][]
  [][][] [][] [][][][][][][][][] [][] [][][][][][][][][] [][] [][][][][][][] [][
 ] [][][][][][] [][]
  []
 
-
-Underfull \hbox (badness 4366) in paragraph at lines 771--773
+[29]
+Underfull \hbox (badness 4366) in paragraph at lines 788--790
 []\TU/lmr/m/n/10 Challenge to scientists: does your ten-year-old code still run
 ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--773
+Underfull \hbox (badness 10000) in paragraph at lines 788--790
 []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][] [] [][][][][][][][] [] 
 [][][][][][] [][] [][][] [][] [][][][][] [][] [] [] [][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--773
+Underfull \hbox (badness 10000) in paragraph at lines 788--790
 [][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][
 ] [] [][][][][][][][][][][] [] [][][][][][][][] []
  []
@@ -1077,17 +1146,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 771--773
 
 Package natbib Warning: There were undefined citations.
 
-[25] (./reproducible_research.aux)
+[30] (./reproducible_research.aux)
 Package rerunfilecheck Info: File `reproducible_research.out' has not changed.
-(rerunfilecheck)             Checksum: 312F76E7FF5B25670238ED8F85F474D8;5689.
+(rerunfilecheck)             Checksum: AFDA312B2F6FFDE3465037E28C23AC4E;3265.
  ) 
 Here is how much of TeX's memory you used:
- 18073 strings out of 479212
- 320481 string characters out of 5873449
- 807712 words of memory out of 5000000
- 37389 multiletter control sequences out of 15000+600000
+ 17653 strings out of 479210
+ 317998 string characters out of 5873434
+ 796627 words of memory out of 5000000
+ 36952 multiletter control sequences out of 15000+600000
  409881 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 98i,6n,122p,671b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,6n,122p,671b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on reproducible_research.pdf (25 pages).
+Output written on reproducible_research.pdf (30 pages).

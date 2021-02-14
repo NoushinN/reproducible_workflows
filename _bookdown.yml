@@ -9,7 +9,6 @@ rmd_files:
     - "03-rr-credits.Rmd"
     - "04-rr-markdown.Rmd"
     - "05-rr-github.Rmd"
-    - "06-rr-bibliography.Rmd"
-    - "07-rr-resources.Rmd"
+    - "06-rr-resources.Rmd"
 clean: [packages.bib, bookdown.bbl]
 delete_merged_file: true
