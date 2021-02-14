@@ -3,17 +3,38 @@ title: "Open and reproducible workflows in the public service"
 author: "Noushin Nabavi & Monica Granados"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+knit: "bookdown::render_book"
 output: bookdown::gitbook
 documentclass: book
+link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+fontsize: 12pt
 github-repo: NoushinN/reproducible_research
 description: "This book contains materials for a 1-day introduction to reproducible research workshop to public servants, analysis, and advisors"
 ---
 
+
+```{r setup, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2,
+  width = 55, digits = 4, warnPartialMatchAttr = FALSE, warnPartialMatchDollar = FALSE
+)
+local({
+  r = getOption('repos')
+  if (!length(r) || identical(unname(r['CRAN']), '@CRAN@'))
+    r['CRAN'] = 'https://cran.rstudio.com' 
+  options(repos = r)
+})
+lapply(c('DT', 'citr', 'formatR', 'svglite', 'rticles'), function(pkg) {
+  if (system.file(package = pkg) == '') install.packages(pkg)
+})
+```
+
 # Preface 
 
-
 A repository to house materials for a open and reproducible workflows in the public service workshop. 
-
 
 The goal of this workshop is to introduce participants to concepts of `reproducible research`.
 Reproducible research is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.

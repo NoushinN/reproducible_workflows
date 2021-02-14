@@ -1,6 +1,6 @@
-book_filename: "reproducible_research"
+book_filename: "reproducible_workflows"
 chapter_name: "Chapter "
-repo: https://github.com/NoushinN/reproducible_research
+repo: https://github.com/NoushinN/reproducible_workflows
 output_dir: docs
 rmd_files:
     - "index.Rmd"

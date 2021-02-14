@@ -2,7 +2,9 @@
 title: "Resources"
 ---
 
-# Resources (blogs, sites, books, courses):
+#  Resources 
+
+## (blogs, sites, books, courses):
 - Matthew Shotwell's slides (2011): ["Approaches and Barriers to Reproducible Practices in Biostatistics"](https://rstudio-pubs-static.s3.amazonaws.com/177032_7be0bffdc2274d679c03b7228ac7b91f.html)
 - NIH Training Module: [Reproducibility through rigor and transparenct](https://grants.nih.gov/reproducibility/module_1/presentation.html)
 - Gandrud, Christopher. [Reproducible Research with R and R Studio](https://englianhu.files.wordpress.com/2016/01/reproducible-research-with-r-and-studio-2nd-edition.pdf), CRC Press, 2013.

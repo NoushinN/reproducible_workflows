@@ -33,4 +33,5 @@ git-commands
 git-terminology
 git-commands-1
 references
-resources-blogs-sites-books-courses
+resources
+blogs-sites-books-courses
