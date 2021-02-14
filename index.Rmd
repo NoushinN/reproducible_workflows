@@ -1,34 +1,26 @@
 ---
-title: "Introduction to reproducible research"
+title: "Open and reproducible workflows in the public service"
 author: "Noushin Nabavi & Monica Granados"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
 github-repo: NoushinN/reproducible_research
-description: "This book contains materials for a 1 day Introduction to reproducible research workshop"
+description: "This book contains materials for a 1-day introduction to reproducible research workshop to public servants, analysis, and advisors"
 ---
 
 # Preface 
 
 
-A repository to house materials for a reproducibility in research workshop using [`R`](https://www.r-project.org/).
+A repository to house materials for a open and reproducible workflows in the public service workshop. 
 
 
-The goal of this workshop is to teach concepts of `reproducible research` to new-to-programming professionals. 
-
-`Reproducible research` is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.
-
-The need for reproducibility is increasing dramatically as data analyses become more complex, involving larger datasets and more sophisticated computations. 
-
-Reproducibility allows for people to focus on the actual content of a data analysis, rather than on superficial details reported in a written summary. In addition, reproducibility makes an analysis more useful to others because the data and code that actually conducted the analysis are available. 
+The goal of this workshop is to introduce participants to concepts of `reproducible research`.
+Reproducible research is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.
 
 This workshop focuses on the concepts and tools behind reporting modern data analyses in a reproducible manner. As part of this, we introduce tools that enable publishing data analyses in a single document that allows others to easily execute the same analysis to obtain the same results.
 
-Additionally, as part of this workshop, we briefly introduce data structures, importing and wrangling data,  exploring missingness, as well as data visualizations and reporting. 
-
-`R` is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop content will follow best practices for using `R`, giving attendees a foundation in the fundamentals of R and scientific computing.
-
+Additionally, as part of this workshop, we briefly introduce working with `R` and Rstudio to create a Rmarkdown document. R is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. 
 
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
@@ -36,13 +28,18 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ## Learning goals
 
-By the end of this workshop, EW2 participants will learn how to:
+By the end of this workshop, EW2 participants will learn be able to:
 
-- describe reproducible research and its components
-- write basic markdown, Rmarkdown and bookdown documents
+- Define reproducible research and open workflows
+- Discuss current issues surrounding reproducibility
+- Discuss solutions and important components of reproducibility 
+- Identify tools that are used for reproducible and open research
+
+
+In the demonstration part of the workshop, we will: 
+- write basic markdown documents
 - use knitr, rmarkdown and bookdown R packages to build various document types (e.g. PDF, HTML and DOCX)
-- create reproducible Rmarkdown documents leveraging .Rproj and .RData
-- include in-line citation and full references list in to Rmarkdown document using .bib files
+- create reproducible rmarkdown documents leveraging .Rproj and .RData
 - create presentations from Rmarkdown documents that include R code
-- work with git version control tool 
+- work with git version control tools 
 - create reproducible and “backed up” analysis via remote repositories (e.g github)

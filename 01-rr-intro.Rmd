@@ -5,9 +5,14 @@ title: "Introduction to reproducible research"
 
 # Introduction to reproducible research
 
+The terms `reproducible research` was coined by Jon Claerbout in the 1980s when he writes an essay on [reproducible](http://sepwww.stanford.edu/sep/jon/reproducible.html) computational research, and describes the hurdles he faces when making a text book that incorporates text, data, and results in a stand-alone document. According to Claerbout's principle, 'scholarship does not only consist of theorems and proofs but also and perhaps even more important of data, computer code and a runtime environment which provides readers with the possibility to reproduce all tables and figures in an article'.
+
+The need for reproducibility is increasing dramatically as data analyses become more complex and involve larger datasets, analysts, and more sophisticated computations. 
+
+
 ## what is reproducible research? 
 
-According to a U.S. National Science Foundation (NSF) subcommittee on replicability in science, “reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.
+According to a U.S. National Science Foundation (NSF) subcommittee on replicability in science, “reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.  This entails that a result obtained by an experiment or observational study should be achieved again with a high degree of agreement when the study is replicated with the same methodology by different researchers
 
 
 ## Terminology distinctions
@@ -40,8 +45,7 @@ Actual results themselves, which includes:
 
 ## Motivation
 
-Attempt to make experiments, processes, and reports more reproducible. 
-Some aspects to consider that may make your experiments more reproducible:
+Some aspects to consider that may make your experiments, processes, and reports more reproducible:
 1. Don't Read Between the Lines. ...
 2. Be Strict. ...
 3. Keep Things Transparent. ...
