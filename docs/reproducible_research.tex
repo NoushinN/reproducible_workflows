@@ -1,43 +1,57 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[]{book}
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
-\else % if luatex or xelatex
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
   \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\usepackage{hyperref}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-            pdftitle={Introduction to reproducible research},
-            pdfauthor={Noushin Nabavi \& Monica Granados},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
-\usepackage{graphicx,grffile}
+  pdftitle={Resources},
+  pdfauthor={Noushin Nabavi \& Monica Granados},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -46,32 +60,24 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
+% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
 \usepackage{booktabs}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
 
-\title{Introduction to reproducible research}
+\title{Resources}
 \author{Noushin Nabavi \& Monica Granados}
-\date{2020-11-29}
+\date{2021-02-13}
 
 \begin{document}
 \maketitle
@@ -83,21 +89,14 @@
 \hypertarget{preface}{%
 \chapter{Preface}\label{preface}}
 
-A repository to house materials for a reproducibility in research workshop using \href{https://www.r-project.org/}{\texttt{R}}.
+A repository to house materials for a open and reproducible workflows in the public service workshop.
 
-The goal of this workshop is to teach concepts of \texttt{reproducible\ research} to new-to-programming professionals.
-
-\texttt{Reproducible\ research} is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.
-
-The need for reproducibility is increasing dramatically as data analyses become more complex, involving larger datasets and more sophisticated computations.
-
-Reproducibility allows for people to focus on the actual content of a data analysis, rather than on superficial details reported in a written summary. In addition, reproducibility makes an analysis more useful to others because the data and code that actually conducted the analysis are available.
+The goal of this workshop is to introduce participants to concepts of \texttt{reproducible\ research}.
+Reproducible research is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.
 
 This workshop focuses on the concepts and tools behind reporting modern data analyses in a reproducible manner. As part of this, we introduce tools that enable publishing data analyses in a single document that allows others to easily execute the same analysis to obtain the same results.
 
-Additionally, as part of this workshop, we briefly introduce data structures, importing and wrangling data, exploring missingness, as well as data visualizations and reporting.
-
-\texttt{R} is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks. The workshop content will follow best practices for using \texttt{R}, giving attendees a foundation in the fundamentals of R and scientific computing.
+Additionally, as part of this workshop, we briefly introduce working with \texttt{R} and Rstudio to create a Rmarkdown document. R is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks.
 
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit \url{http://creativecommons.org/licenses/by/4.0/}.
@@ -105,35 +104,39 @@ To view a copy of this license, visit \url{http://creativecommons.org/licenses/b
 \hypertarget{learning-goals}{%
 \section{Learning goals}\label{learning-goals}}
 
-By the end of this workshop, EW2 participants will learn how to:
+By the end of this workshop, EW2 participants will learn be able to:
 
 \begin{itemize}
 \tightlist
 \item
-  describe reproducible research and its components
+  Define reproducible research and open workflows
 \item
-  write basic markdown, Rmarkdown and bookdown documents
+  Discuss current issues surrounding reproducibility
 \item
-  use knitr, rmarkdown and bookdown R packages to build various document types (e.g.~PDF, HTML and DOCX)
+  Discuss solutions and important components of reproducibility
 \item
-  create reproducible Rmarkdown documents leveraging .Rproj and .RData
-\item
-  include in-line citation and full references list in to Rmarkdown document using .bib files
-\item
-  create presentations from Rmarkdown documents that include R code
-\item
-  work with git version control tool
-\item
-  create reproducible and ``backed up'' analysis via remote repositories (e.g github)
+  Identify tools that are used for reproducible and open research
 \end{itemize}
+
+In the demonstration part of the workshop, we will:\\
+- write basic markdown documents\\
+- use knitr, rmarkdown and bookdown R packages to build various document types (e.g.~PDF, HTML and DOCX)\\
+- create reproducible rmarkdown documents leveraging .Rproj and .RData\\
+- create presentations from Rmarkdown documents that include R code\\
+- work with git version control tools\\
+- create reproducible and ``backed up'' analysis via remote repositories (e.g github)
 
 \hypertarget{introduction-to-reproducible-research}{%
 \chapter{Introduction to reproducible research}\label{introduction-to-reproducible-research}}
 
+The terms \texttt{reproducible\ research} was coined by Jon Claerbout in the 1980s when he writes an essay on \href{http://sepwww.stanford.edu/sep/jon/reproducible.html}{reproducible} computational research, and describes the hurdles he faces when making a text book that incorporates text, data, and results in a stand-alone document. According to Claerbout's principle, `scholarship does not only consist of theorems and proofs but also and perhaps even more important of data, computer code and a runtime environment which provides readers with the possibility to reproduce all tables and figures in an article'.
+
+The need for reproducibility is increasing dramatically as data analyses become more complex and involve larger datasets, analysts, and more sophisticated computations.
+
 \hypertarget{what-is-reproducible-research}{%
 \section{what is reproducible research?}\label{what-is-reproducible-research}}
 
-According to a U.S. National Science Foundation (NSF) subcommittee on replicability in science, ``reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.
+According to a U.S. National Science Foundation (NSF) subcommittee on replicability in science, ``reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator. This entails that a result obtained by an experiment or observational study should be achieved again with a high degree of agreement when the study is replicated with the same methodology by different researchers
 
 \hypertarget{terminology-distinctions}{%
 \section{Terminology distinctions}\label{terminology-distinctions}}
@@ -169,8 +172,7 @@ Actual results themselves, which includes:
 \hypertarget{motivation}{%
 \section{Motivation}\label{motivation}}
 
-Attempt to make experiments, processes, and reports more reproducible.
-Some aspects to consider that may make your experiments more reproducible:
+Some aspects to consider that may make your experiments, processes, and reports more reproducible:
 1. Don't Read Between the Lines. \ldots{}
 2. Be Strict. \ldots{}
 3. Keep Things Transparent. \ldots{}
@@ -341,7 +343,7 @@ Tools that help:
 \item
   dichotomizing Rmarkdown document content to (1) computation component and (2) narrative component (\citet{MikeKane}, Yale) collectively called as research compendia
 \item
-  Research Compedia: a container for the different elements that make up the document and its computations (i.e.~text, code, data, \ldots{}) and as a means for distributing, managing, and updating the collection.
+  Research Compedia: a container for the different elements that make up the document and its computations (i.e.~text, code, data, \ldots) and as a means for distributing, managing, and updating the collection.
 \end{itemize}
 
 \hypertarget{computation-components}{%
@@ -592,8 +594,8 @@ Note on adding files to the remote:
 \hypertarget{bibliography}{%
 \chapter{Bibliography}\label{bibliography}}
 
-\hypertarget{resources}{%
-\chapter{Resources}\label{resources}}
+\hypertarget{resources-1}{%
+\chapter{Resources}\label{resources-1}}
 
 \begin{itemize}
 \tightlist
@@ -619,6 +621,8 @@ Note on adding files to the remote:
   What does research reproducibility mean? \url{https://stm.sciencemag.org/content/8/341/341ps12}
 \item
   Challenge to scientists: does your ten-year-old code still run? \url{https://www.nature.com/articles/d41586-020-02462-7?utm_source=twitter\&utm_medium=social\&utm_content=organic\&utm_campaign=NGMT_USG_JC01_GL_Nature\#ref-CR1}
+\item
+  Reproducible Research and open science: \url{https://ropensci.github.io/reproducibility-guide/sections/introduction/}
 \end{itemize}
 
 \end{document}

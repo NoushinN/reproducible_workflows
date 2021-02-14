@@ -28,18 +28,18 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ## Learning goals
 
-By the end of this workshop, EW2 participants will learn be able to:
-
+By the end of this workshop, EW2 participants will learn be able to:  
 - Define reproducible research and open workflows
 - Discuss current issues surrounding reproducibility
 - Discuss solutions and important components of reproducibility 
 - Identify tools that are used for reproducible and open research
 
 
-In the demonstration part of the workshop, we will: 
-- write basic markdown documents
-- use knitr, rmarkdown and bookdown R packages to build various document types (e.g. PDF, HTML and DOCX)
-- create reproducible rmarkdown documents leveraging .Rproj and .RData
-- create presentations from Rmarkdown documents that include R code
-- work with git version control tools 
-- create reproducible and “backed up” analysis via remote repositories (e.g github)
+In the demonstration part of the workshop, we will:  
+
+- Write basic markdown documents  
+- Use knitr, rmarkdown and bookdown R packages to build various document types (e.g. PDF, HTML and DOCX)  
+- Create reproducible rmarkdown documents leveraging .Rproj and .RData  
+- Create presentations from Rmarkdown documents that include R code  
+- Work with git version control tools   
+- Create reproducible and “backed up” analysis via remote repositories (e.g github)  
