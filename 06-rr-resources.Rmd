@@ -1,8 +1,6 @@
----
-title: "Resources"
----
 
 # Resources
+
 
 This section provides a collection of useful resources related to reproducible research, open science, Git and GitHub, R Markdown, data management, transparency, and reproducible analytical workflows.
 

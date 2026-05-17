@@ -1,4 +1,3 @@
-preface
 learning-goals
 introduction-to-reproducible-research
 what-is-reproducible-research

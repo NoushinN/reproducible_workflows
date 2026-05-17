@@ -1,6 +1,3 @@
----
-title: "Introduction to reproducible research"
----
 
 # Introduction to reproducible research
 
