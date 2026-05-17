@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Resources</title>
   <meta name="description" content="This book contains materials for a 1-day introduction to reproducible research workshop to public servants, analysis, and advisors" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Resources" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="This book contains materials for a 1-day introduction to reproducible research workshop to public servants, analysis, and advisors" />
   <meta name="github-repo" content="NoushinN/reproducible_research" />
@@ -24,7 +23,7 @@
 <meta name="author" content="Noushin Nabavi &amp; Monica Granados" />
 
 
-<meta name="date" content="2021-02-13" />
+<meta name="date" content="2026-05-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 
 <link rel="next" href="introduction-to-reproducible-research.html"/>
-<script src="libs/header-attrs/header-attrs.js"></script>
-<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +49,16 @@
 
 
 
+<link href="libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -151,10 +157,10 @@
 <div id="header">
 <h1 class="title">Resources</h1>
 <p class="author"><em>Noushin Nabavi &amp; Monica Granados</em></p>
-<p class="date"><em>2021-02-13</em></p>
+<p class="date"><em>2026-05-17</em></p>
 </div>
-<div id="preface" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Preface</h1>
+<div id="preface" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Preface<a href="index.html#preface" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>A repository to house materials for a open and reproducible workflows in the public service workshop.</p>
 <p>The goal of this workshop is to introduce participants to concepts of <code>reproducible research</code>.
 Reproducible research is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.</p>
@@ -162,8 +168,8 @@ Reproducible research is the idea that data analyses, and more generally, scient
 <p>Additionally, as part of this workshop, we briefly introduce working with <code>R</code> and Rstudio to create a Rmarkdown document. R is a popular statistical computing language, commonly used in many scientific disciplines for statistical analysis, generating production-quality graphics, and automating data workflow tasks.</p>
 <p>This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by/4.0/" class="uri">http://creativecommons.org/licenses/by/4.0/</a>.</p>
-<div id="learning-goals" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Learning goals</h2>
+<div id="learning-goals" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Learning goals<a href="index.html#learning-goals" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>By the end of this workshop, EW2 participants will learn be able to:<br />
 - Define reproducible research and open workflows
 - Discuss current issues surrounding reproducibility
@@ -196,7 +202,6 @@ To view a copy of this license, visit <a href="http://creativecommons.org/licens
     </div>
   </div>
 <script src="libs/gitbook/js/app.min.js"></script>
-<script src="libs/gitbook/js/lunr.js"></script>
 <script src="libs/gitbook/js/clipboard.min.js"></script>
 <script src="libs/gitbook/js/plugin-search.js"></script>
 <script src="libs/gitbook/js/plugin-sharing.js"></script>
@@ -207,37 +212,42 @@ To view a copy of this license, visit <a href="http://creativecommons.org/licens
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["reproducible_workflows.pdf", "reproducible_workflows.epub"],
-"toc": {
-"collapse": "subsection"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["reproducible_workflows.pdf", "reproducible_workflows.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
 });
 });
 </script>
