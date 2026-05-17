@@ -2,114 +2,288 @@
 title: "Github for reproducible research"
 ---
 
-# GIT Commands
+# Git and GitHub for reproducible research
+
+Git and GitHub are among the most important tools for reproducible research, collaborative workflows, and modern computational project management.
+
+Version control systems such as Git help researchers and analysts:
+
+- track changes over time,
+- collaborate across teams,
+- maintain project history,
+- recover previous versions of files,
+- document analytical workflows,
+- and improve transparency and reproducibility.
+
+GitHub extends Git by providing a cloud-based platform for sharing repositories, collaborating on projects, managing issues, documenting workflows, and distributing open-source code and research products.
+
+In reproducible research, Git and GitHub help ensure that code, documentation, analyses, and reports evolve in a structured, transparent, and traceable manner.
+
+## Why use Git and GitHub?
+
+Some major benefits include:
+
+- preserving the full history of a project,
+- enabling collaboration without overwriting files,
+- improving organization and workflow management,
+- supporting open science and transparency,
+- facilitating reproducible analyses,
+- allowing rollback to previous versions,
+- integrating with RStudio and other analytical tools,
+- and supporting automated workflows and continuous integration.
+
+Git is especially valuable in projects involving multiple collaborators or long-term analytical development.
+
+## GIT Commands
 
 + [GIT Terminology](#git-terminology)
 + [GIT Commands](#git-commands)
 + [Resources](#resources)
 
-
 <br>
 
 ## GIT Terminology
 
-+ `origin` : connection pointing to the remote repository
+Understanding common Git terminology is important before working with repositories and version control workflows.
 
-+ `master` : name of your default branch. A branch in Git is simply a lightweight movable pointer to a commit
++ `origin` : a connection pointing to the remote repository.
 
-+ `working directory` : local repository
++ `master` : traditionally the name of the default branch. A branch in Git is a lightweight movable pointer to a commit.  
+  *(Note: many modern repositories now use `main` instead of `master` as the default branch name.)*
 
-+ `.git directory` : Git stores all of its repository data in the .git directory. This is created when a local repository is initialised using the `init` command
++ `working directory` : the local repository and files currently being edited on your computer.
 
-+ `.git.ignore` : Git uses this file to determine which files and directories to ignore, before you make a commit
++ `.git directory` : Git stores all repository data inside the `.git` directory. This folder is created when a local repository is initialized using the `git init` command.
 
-+ `hash`:  the commit command creates a unique ID called a hash, which is an absolute path
++ `.gitignore` : Git uses this file to determine which files and directories should be ignored before making commits. Common examples include temporary files, datasets, and system-generated files.
 
-+ `HEAD` : pointer to the last commit of the branch you are currently on. If you are on the master branch, then HEAD and master will refer to the same commit. This is a relative path. To see the previous commit use `HEAD~1`
++ `hash` : the commit command creates a unique identifier called a hash that uniquely identifies a commit.
 
++ `HEAD` : a pointer to the latest commit on the current branch. If you are on the master branch, then `HEAD` and `master` point to the same commit. To refer to the previous commit, use `HEAD~1`.
+
++ `repository (repo)` : a project folder managed by Git containing files, history, and version information.
+
++ `commit` : a snapshot of changes saved into the repository history.
+
++ `staging area` : an intermediate area where files are prepared before committing.
+
++ `branch` : an independent line of development that allows experimentation and collaboration without affecting the main workflow.
+
++ `merge` : combining changes from different branches into a single branch.
 
 ## GIT Commands
 
-Initialise
+Git commands help manage repositories, track changes, collaborate with others, and maintain reproducible workflows.
 
-+ `git init <local repository name>`initialises a new local repository
+### Initialize
 
-Remotes
++ `git init <local repository name>`  
+  Initializes a new local repository.
 
-+ `git remote add <remote name> <url>` creates a new connection to a remote repository  <remote name> is the shortcut for the <url> and is typically set to 'origin'
-+ `git remote show <remote name>` shows which branch is automatically pushed to when you run git push while on certain branches. It also shows you which remote branches on the server you don't yet have, which remote branches you have that have been removed from the server, and multiple local branches that are able to merge automatically with their remote-tracking branch when you run git pull
-+ `git remote rename <remote name> <new remote name>` rename a remote
-+ `git remote remove <remote name>` remove a remote
-+ `git remote -v` lists the remotes that are configured
+This creates the `.git` directory and begins version control tracking.
 
-Branches
+### Remotes
 
-+ `git branch <new branch name>` adds a new branch, a structure with trees for saved states of files
-+ `git checkout <branch name> <filename>` checks out (i.e. switches to another version) an old version of a file
-+ `git branch` lists all of the branches in a repository, with a * next to the branch you are currently on
-+ `git checkout <branch-name>` switches to another branch-name
-+ `git checkout -b branch-name>` creates the branch and switches you to it
-+ `git merge source destination` merges two branches
+Remotes connect local repositories to repositories hosted on platforms such as GitHub.
 
-Status
++ `git remote add <remote name> <url>`  
+  Creates a new connection to a remote repository. The remote name is typically set to `origin`.
 
-+ `git status` shows which files have changed/new in your repository
-+ `git diff` shows the changes you made to the file
-+ `git diff --staged` shows the difference between the last committed change and what's in the staging area
-+ `git diff directory` shows the changes to the files in the directory
-+ `git diff -r HEAD`  -r flag refers to compare to a particular revision
-+ `git log` view the log of the project's history
-+ `git show <hash>` view the details of a specific commit, with the first few characters of the commit's hash
-+ `git annotate <filename>` shows who made the last change to each line of a file and when
++ `git remote show <remote name>`  
+  Shows information about the remote repository and branch tracking.
 
-Clone
++ `git remote rename <remote name> <new remote name>`  
+  Renames a remote connection.
 
-+ `git clone <remote name>` to clone a repo and download a copy of a repo to a local folder This automatically creates the remote called origin
++ `git remote remove <remote name>`  
+  Removes a remote connection.
 
-Add
++ `git remote -v`  
+  Lists all configured remotes.
 
-+ `git add` adds from your working directory to your staging area, ie specifies what will go in a snapshot
-+ `git add <filename>` stages a file
-+ `git add -A` stages all new, modified and deleted
-+ `git add <foldername>/*` adds folder and contents to your staging area
+### Branches
 
-Remove
+Branches allow parallel development and experimentation.
 
-+ `git clean -n` shows a list of files that are in the repository, but whose history Git is not currently tracking
-+ `git clean -f` will then delete those files
++ `git branch <new branch name>`  
+  Creates a new branch.
 
-Undo
++ `git branch`  
+  Lists all branches in the repository.
 
-+ `git reset` undo ALL changes that have been staged with git add
-+ `git reset HEAD <filename>` undo changes to a specific filename that have been staged on HEAD
++ `git checkout <branch-name>`  
+  Switches to another branch.
 
-Commit
++ `git checkout -b <branch-name>`  
+  Creates a branch and switches to it.
 
-+ `git commit -m "<message>"` commits the file with the snapshot to the `local repository` locally. The commit records the changes to the file ie actually takes the snapshot and makes a permanent record of it
++ `git checkout <branch name> <filename>`  
+  Restores a specific version of a file from another branch.
 
-Fetch
++ `git merge <source> <destination>`  
+  Merges changes from one branch into another.
 
-+ `git fetch` gets any new work since last clone or fetch.  Fetch does not however merge remote work with our work
+Branches are extremely useful for collaborative development, testing new features, and preventing accidental modification of stable workflows.
 
-Pull
+### Status
 
-+ `git pull` automatically fetches and then merges that remote branch into your current branch
+These commands help inspect repository status and changes.
 
-Push
++ `git status`  
+  Shows modified, staged, and untracked files.
 
-+ `git push` adds the files to your remote git
++ `git diff`  
+  Shows changes made to files.
 
++ `git diff --staged`  
+  Shows differences between staged files and the last commit.
 
-Note on adding files to the remote:
++ `git diff <directory>`  
+  Shows changes within a directory.
 
-+ When it is your first push from a repo, you will first have to make the link between the local and remote repository via: `git push  --set-upstream origin master`, or shorter `git push -u origin master`. As of then, `git push` will refer to the upstream branch you've set: i.e. origin / master
++ `git diff -r HEAD`  
+  Compares the current working directory against the latest commit.
 
++ `git log`  
+  Displays the repository history.
+
++ `git show <hash>`  
+  Displays details of a specific commit.
+
++ `git annotate <filename>`  
+  Shows who last modified each line of a file and when.
+
+These tools are especially useful for auditing changes and understanding project history.
+
+### Clone
+
++ `git clone <remote repository url>`  
+  Downloads a copy of a remote repository to a local folder.
+
+This automatically creates the remote called `origin`.
+
+Cloning is commonly used when starting collaboration on an existing project.
+
+### Add
+
+The staging area allows users to select which changes will be included in the next commit.
+
++ `git add`  
+  Adds files from the working directory to the staging area.
+
++ `git add <filename>`  
+  Stages a specific file.
+
++ `git add -A`  
+  Stages all new, modified, and deleted files.
+
++ `git add <foldername>/*`  
+  Adds a folder and its contents to the staging area.
+
+### Remove
+
++ `git clean -n`  
+  Shows files not currently tracked by Git.
+
++ `git clean -f`  
+  Deletes untracked files.
+
+These commands should be used carefully because deleted files may not be recoverable.
+
+### Undo
+
+Git provides several ways to undo staged or modified changes.
+
++ `git reset`  
+  Undoes all staged changes.
+
++ `git reset HEAD <filename>`  
+  Unstages a specific file.
+
+Version control systems are valuable because they allow experimentation while preserving recoverability.
+
+### Commit
+
++ `git commit -m "<message>"`  
+  Saves a snapshot of staged changes into the local repository history.
+
+Commits should ideally:
+- be small and focused,
+- contain meaningful messages,
+- and document logical analytical or project changes.
+
+Good commit messages improve project traceability and collaboration.
+
+### Fetch
+
++ `git fetch`  
+  Retrieves new work from a remote repository without merging it into the current branch.
+
+Fetching allows users to inspect incoming changes before merging.
+
+### Pull
+
++ `git pull`  
+  Automatically fetches and merges changes from the remote branch into the current branch.
+
+Pulling helps synchronize local and remote repositories.
+
+### Push
+
++ `git push`  
+  Uploads local commits to the remote repository.
+
+Pushing allows collaborators to access updates and maintains synchronization between local and remote versions.
+
+## Note on adding files to the remote repository
+
+When pushing to a remote repository for the first time, you must establish a connection between the local and remote branches:
+
++ `git push --set-upstream origin master`
+
+or the shorter version:
+
++ `git push -u origin master`
+
+After this initial setup, future pushes can usually be completed using:
+
++ `git push`
+
+Modern repositories may use `main` instead of `master`.
+
+## GitHub workflows and collaboration
+
+GitHub provides additional collaborative tools including:
+
+- pull requests,
+- issue tracking,
+- repository discussions,
+- project boards,
+- GitHub Actions for automation,
+- documentation hosting,
+- and integration with analytical tools and IDEs.
+
+These features support collaborative and reproducible analytical workflows across teams and organizations.
+
+## Git and reproducibility
+
+Git supports reproducibility by:
+
+- preserving the complete analytical history,
+- documenting workflow evolution,
+- enabling rollback to previous versions,
+- facilitating peer review,
+- supporting collaborative development,
+- and improving transparency and accountability.
+
+In reproducible research, version control is not simply a software development tool — it is also an important organizational and documentation practice.
 
 <br>
 
+## References
 
-### references
++ [Happy Git and GitHub for the useR by Jennifer Bryan](http://happygitwithr.com/rmd-test-drive.html) adapted under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 
-+ [Happy Git and GitHub for the useR by Jennifer Bryan](http://happygitwithr.com/rmd-test-drive.html) adapted under  [Creative Commons Attribution-NonCommercial 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)
-+ [Pro Git book, written by Scott Chacon and Ben Straub ](https://git-scm.com/book/en/v2) adapted under the [Creative Commons Attribution Non Commercial Share Alike 3.0 license](https://creativecommons.org/licenses/by/3.0/)
-+ [Version Control with Git by Software Carpentry](http://swcarpentry.github.io/git-novice/) adapted under the [Attribution 4.0 International (CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
++ [Pro Git book, written by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2) adapted under the [Creative Commons Attribution Non Commercial Share Alike 3.0 license](https://creativecommons.org/licenses/by/3.0/)
+
++ [Version Control with Git by Software Carpentry](http://swcarpentry.github.io/git-novice/) adapted under the [Attribution 4.0 International (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/)

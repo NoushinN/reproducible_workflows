@@ -2,38 +2,191 @@
 title: "Markdown for reproducible research"
 ---
 
-# Introduction to markdown
+# Introduction to Markdown
 
-- how does rmarkdown work? Advantages, disadvantages
-- rmarkdown syntax (examples)
+Markdown and R Markdown are powerful tools for creating reproducible, transparent, and dynamic research documents. They allow researchers and analysts to combine narrative text, code, figures, tables, and outputs within a single document that can be automatically regenerated whenever data or analyses change.
 
-## Rmarkdown and usage
+Rather than separating analysis from reporting, R Markdown integrates both into a unified workflow. This approach reduces manual editing, improves transparency, and supports reproducible research practices.
 
-- reproducible reporting with rmarkdown
-- dichotomizing Rmarkdown document content to (1) computation component and (2) narrative component (@MikeKane, Yale) collectively called as research compendia
+## What is Markdown?
 
-- Research Compedia: a container for the different elements that make up the document and its computations (i.e. text, code, data, ...) and as a means for distributing, managing, and updating the collection.
+Markdown is a lightweight markup language used to format plain text documents. It provides a simple and readable syntax for creating:
 
-## Computation components 
+- headings,
+- lists,
+- hyperlinks,
+- tables,
+- images,
+- code blocks,
+- and formatted documents.
 
+Markdown files are easy to read in plain text format while also being convertible into professionally formatted outputs such as HTML, PDF, and Word documents.
 
-- Objects to be presented: usually plots and tables
-- Reproducible code to visualize data
+Some advantages of Markdown include:
 
-## Narrative components 
+- simple and human-readable syntax,
+- platform independence,
+- compatibility with version control systems such as Git,
+- easy collaboration,
+- and support for reproducible workflows.
 
-- Provide backgrounds, goals
-- Contexualize computational components
-- Establish themes
-- Convey the results
-- Render in pdf, html, docx
+Some limitations include:
 
-## Rproject set-up
+- limited advanced formatting compared to traditional word processors,
+- dependency on rendering tools,
+- and a learning curve for users unfamiliar with markup languages.
 
-- Allows for integration of the two components (i.e. creation of Rmarkdowns with compuational components)
-- Integrates literate programming
-- Provide interpretability and facilitate reproducibility
+## What is R Markdown?
 
-## Demo 
-- End-to-end demonstration of a reproducible project
-- Please refer to [Beaver.Rmd](Beavers.Rmd)
+R Markdown extends Markdown by allowing executable R code and computational outputs to be embedded directly within a document.
+
+An R Markdown document typically combines:
+
+1. **Computation components**  
+2. **Narrative components**
+
+Together, these form what is often referred to as a **research compendium**.
+
+According to Mike Kane (Yale University), research compendia combine computational and narrative elements into a unified and reproducible analytical framework.
+
+## R Markdown and reproducible reporting
+
+R Markdown supports reproducible reporting by allowing:
+
+- data import and processing,
+- statistical analyses,
+- visualizations,
+- tables,
+- and narrative explanations
+
+to exist within a single dynamic document.
+
+Whenever the document is rendered, the code is executed automatically and the outputs are updated. This reduces the risk of manual transcription errors and helps ensure consistency between analyses and reported results.
+
+R Markdown documents can be rendered into multiple output formats, including:
+
+- HTML,
+- PDF,
+- Microsoft Word (`.docx`),
+- presentations,
+- websites,
+- dashboards,
+- and books (e.g., Bookdown).
+
+## Research compendia
+
+A research compendium is a structured container for the different elements that make up a research or analytical project, including:
+
+- text,
+- code,
+- data,
+- figures,
+- outputs,
+- documentation,
+- and computational workflows.
+
+Research compendia help support:
+
+- reproducibility,
+- transparency,
+- collaboration,
+- project organization,
+- version control,
+- and long-term maintainability.
+
+They also make it easier to distribute, manage, update, and reproduce analytical work.
+
+## Computation components
+
+Computation components refer to the analytical and computational elements of a project.
+
+These may include:
+
+- reproducible code,
+- scripts,
+- statistical analyses,
+- simulations,
+- visualizations,
+- figures,
+- tables,
+- and automated workflows.
+
+The primary goal of computation components is to ensure that analytical outputs can be regenerated directly from the original data and code.
+
+Examples include:
+
+- generating plots from datasets,
+- performing statistical tests,
+- producing summary tables,
+- fitting models,
+- and automating repetitive analytical tasks.
+
+## Narrative components
+
+Narrative components provide the explanatory and interpretive context surrounding the computational work.
+
+These components may:
+
+- provide background information,
+- explain project goals and objectives,
+- describe methodologies,
+- contextualize computational outputs,
+- establish themes and analytical flow,
+- interpret results,
+- discuss limitations,
+- and communicate conclusions.
+
+Narrative components help transform computational outputs into understandable and communicable analytical products.
+
+R Markdown enables narrative and computational components to coexist within a single integrated document.
+
+## R Project setup
+
+Using an R Project (`.Rproj`) structure helps organize reproducible workflows and analytical projects.
+
+R Projects support:
+
+- integration of narrative and computational components,
+- relative file paths,
+- organized project structures,
+- package and dependency management,
+- version control integration,
+- and reproducible reporting workflows.
+
+An R Project environment also facilitates literate programming, where code, analysis, and written interpretation are developed together.
+
+Benefits of using R Projects include:
+
+- improved organization,
+- improved interpretability,
+- easier collaboration,
+- better reproducibility,
+- and easier maintenance of analytical workflows over time.
+
+## Literate programming
+
+Literate programming is an approach in which analytical code and human-readable explanations are developed together within the same document.
+
+Instead of separating code from interpretation, literate programming integrates:
+
+- computation,
+- documentation,
+- interpretation,
+- and reporting
+
+into a single reproducible workflow.
+
+R Markdown is one of the most widely used tools for literate programming in data science and reproducible research.
+
+## Basic R Markdown syntax
+
+R Markdown syntax combines plain Markdown formatting with executable code chunks.
+
+Common syntax examples include:
+
+### Headings
+
+```markdown
+# Main heading
+## Subheading
+### Smaller heading```

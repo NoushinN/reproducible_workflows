@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Page not found | Resources</title>
+  <title>Chapter 6 Git and GitHub for reproducible research | Resources</title>
   <meta name="description" content="This book contains materials for a 1-day introduction to reproducible research workshop to public servants, analysis, and advisors" />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Page not found | Resources" />
+  <meta property="og:title" content="Chapter 6 Git and GitHub for reproducible research | Resources" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This book contains materials for a 1-day introduction to reproducible research workshop to public servants, analysis, and advisors" />
   <meta name="github-repo" content="NoushinN/reproducible_research" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | Resources" />
+  <meta name="twitter:title" content="Chapter 6 Git and GitHub for reproducible research | Resources" />
   
   <meta name="twitter:description" content="This book contains materials for a 1-day introduction to reproducible research workshop to public servants, analysis, and advisors" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-
+<link rel="prev" href="introduction-to-markdown.html"/>
+<link rel="next" href="resources.html"/>
 <script src="libs/jquery/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
@@ -204,19 +204,274 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="git-and-github-for-reproducible-research" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Git and GitHub for reproducible research<a href="git-and-github-for-reproducible-research.html#git-and-github-for-reproducible-research" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Git and GitHub are among the most important tools for reproducible research, collaborative workflows, and modern computational project management.</p>
+<p>Version control systems such as Git help researchers and analysts:</p>
+<ul>
+<li>track changes over time,</li>
+<li>collaborate across teams,</li>
+<li>maintain project history,</li>
+<li>recover previous versions of files,</li>
+<li>document analytical workflows,</li>
+<li>and improve transparency and reproducibility.</li>
+</ul>
+<p>GitHub extends Git by providing a cloud-based platform for sharing repositories, collaborating on projects, managing issues, documenting workflows, and distributing open-source code and research products.</p>
+<p>In reproducible research, Git and GitHub help ensure that code, documentation, analyses, and reports evolve in a structured, transparent, and traceable manner.</p>
+<div id="why-use-git-and-github" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Why use Git and GitHub?<a href="git-and-github-for-reproducible-research.html#why-use-git-and-github" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Some major benefits include:</p>
+<ul>
+<li>preserving the full history of a project,</li>
+<li>enabling collaboration without overwriting files,</li>
+<li>improving organization and workflow management,</li>
+<li>supporting open science and transparency,</li>
+<li>facilitating reproducible analyses,</li>
+<li>allowing rollback to previous versions,</li>
+<li>integrating with RStudio and other analytical tools,</li>
+<li>and supporting automated workflows and continuous integration.</li>
+</ul>
+<p>Git is especially valuable in projects involving multiple collaborators or long-term analytical development.</p>
+</div>
+<div id="git-commands" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> GIT Commands<a href="git-and-github-for-reproducible-research.html#git-commands" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><a href="git-and-github-for-reproducible-research.html#git-terminology">GIT Terminology</a></li>
+<li><a href="git-and-github-for-reproducible-research.html#git-commands">GIT Commands</a></li>
+<li><a href="resources.html#resources">Resources</a></li>
+</ul>
+<p><br></p>
+</div>
+<div id="git-terminology" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> GIT Terminology<a href="git-and-github-for-reproducible-research.html#git-terminology" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Understanding common Git terminology is important before working with repositories and version control workflows.</p>
+<ul>
+<li><p><code>origin</code> : a connection pointing to the remote repository.</p></li>
+<li><p><code>master</code> : traditionally the name of the default branch. A branch in Git is a lightweight movable pointer to a commit.<br />
+<em>(Note: many modern repositories now use <code>main</code> instead of <code>master</code> as the default branch name.)</em></p></li>
+<li><p><code>working directory</code> : the local repository and files currently being edited on your computer.</p></li>
+<li><p><code>.git directory</code> : Git stores all repository data inside the <code>.git</code> directory. This folder is created when a local repository is initialized using the <code>git init</code> command.</p></li>
+<li><p><code>.gitignore</code> : Git uses this file to determine which files and directories should be ignored before making commits. Common examples include temporary files, datasets, and system-generated files.</p></li>
+<li><p><code>hash</code> : the commit command creates a unique identifier called a hash that uniquely identifies a commit.</p></li>
+<li><p><code>HEAD</code> : a pointer to the latest commit on the current branch. If you are on the master branch, then <code>HEAD</code> and <code>master</code> point to the same commit. To refer to the previous commit, use <code>HEAD~1</code>.</p></li>
+<li><p><code>repository (repo)</code> : a project folder managed by Git containing files, history, and version information.</p></li>
+<li><p><code>commit</code> : a snapshot of changes saved into the repository history.</p></li>
+<li><p><code>staging area</code> : an intermediate area where files are prepared before committing.</p></li>
+<li><p><code>branch</code> : an independent line of development that allows experimentation and collaboration without affecting the main workflow.</p></li>
+<li><p><code>merge</code> : combining changes from different branches into a single branch.</p></li>
+</ul>
+</div>
+<div id="git-commands-1" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> GIT Commands<a href="git-and-github-for-reproducible-research.html#git-commands-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Git commands help manage repositories, track changes, collaborate with others, and maintain reproducible workflows.</p>
+<div id="initialize" class="section level3 hasAnchor" number="6.4.1">
+<h3><span class="header-section-number">6.4.1</span> Initialize<a href="git-and-github-for-reproducible-research.html#initialize" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><code>git init &lt;local repository name&gt;</code><br />
+Initializes a new local repository.</li>
+</ul>
+<p>This creates the <code>.git</code> directory and begins version control tracking.</p>
+</div>
+<div id="remotes" class="section level3 hasAnchor" number="6.4.2">
+<h3><span class="header-section-number">6.4.2</span> Remotes<a href="git-and-github-for-reproducible-research.html#remotes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Remotes connect local repositories to repositories hosted on platforms such as GitHub.</p>
+<ul>
+<li><p><code>git remote add &lt;remote name&gt; &lt;url&gt;</code><br />
+Creates a new connection to a remote repository. The remote name is typically set to <code>origin</code>.</p></li>
+<li><p><code>git remote show &lt;remote name&gt;</code><br />
+Shows information about the remote repository and branch tracking.</p></li>
+<li><p><code>git remote rename &lt;remote name&gt; &lt;new remote name&gt;</code><br />
+Renames a remote connection.</p></li>
+<li><p><code>git remote remove &lt;remote name&gt;</code><br />
+Removes a remote connection.</p></li>
+<li><p><code>git remote -v</code><br />
+Lists all configured remotes.</p></li>
+</ul>
+</div>
+<div id="branches" class="section level3 hasAnchor" number="6.4.3">
+<h3><span class="header-section-number">6.4.3</span> Branches<a href="git-and-github-for-reproducible-research.html#branches" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Branches allow parallel development and experimentation.</p>
+<ul>
+<li><p><code>git branch &lt;new branch name&gt;</code><br />
+Creates a new branch.</p></li>
+<li><p><code>git branch</code><br />
+Lists all branches in the repository.</p></li>
+<li><p><code>git checkout &lt;branch-name&gt;</code><br />
+Switches to another branch.</p></li>
+<li><p><code>git checkout -b &lt;branch-name&gt;</code><br />
+Creates a branch and switches to it.</p></li>
+<li><p><code>git checkout &lt;branch name&gt; &lt;filename&gt;</code><br />
+Restores a specific version of a file from another branch.</p></li>
+<li><p><code>git merge &lt;source&gt; &lt;destination&gt;</code><br />
+Merges changes from one branch into another.</p></li>
+</ul>
+<p>Branches are extremely useful for collaborative development, testing new features, and preventing accidental modification of stable workflows.</p>
+</div>
+<div id="status" class="section level3 hasAnchor" number="6.4.4">
+<h3><span class="header-section-number">6.4.4</span> Status<a href="git-and-github-for-reproducible-research.html#status" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>These commands help inspect repository status and changes.</p>
+<ul>
+<li><p><code>git status</code><br />
+Shows modified, staged, and untracked files.</p></li>
+<li><p><code>git diff</code><br />
+Shows changes made to files.</p></li>
+<li><p><code>git diff --staged</code><br />
+Shows differences between staged files and the last commit.</p></li>
+<li><p><code>git diff &lt;directory&gt;</code><br />
+Shows changes within a directory.</p></li>
+<li><p><code>git diff -r HEAD</code><br />
+Compares the current working directory against the latest commit.</p></li>
+<li><p><code>git log</code><br />
+Displays the repository history.</p></li>
+<li><p><code>git show &lt;hash&gt;</code><br />
+Displays details of a specific commit.</p></li>
+<li><p><code>git annotate &lt;filename&gt;</code><br />
+Shows who last modified each line of a file and when.</p></li>
+</ul>
+<p>These tools are especially useful for auditing changes and understanding project history.</p>
+</div>
+<div id="clone" class="section level3 hasAnchor" number="6.4.5">
+<h3><span class="header-section-number">6.4.5</span> Clone<a href="git-and-github-for-reproducible-research.html#clone" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><code>git clone &lt;remote repository url&gt;</code><br />
+Downloads a copy of a remote repository to a local folder.</li>
+</ul>
+<p>This automatically creates the remote called <code>origin</code>.</p>
+<p>Cloning is commonly used when starting collaboration on an existing project.</p>
+</div>
+<div id="add" class="section level3 hasAnchor" number="6.4.6">
+<h3><span class="header-section-number">6.4.6</span> Add<a href="git-and-github-for-reproducible-research.html#add" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The staging area allows users to select which changes will be included in the next commit.</p>
+<ul>
+<li><p><code>git add</code><br />
+Adds files from the working directory to the staging area.</p></li>
+<li><p><code>git add &lt;filename&gt;</code><br />
+Stages a specific file.</p></li>
+<li><p><code>git add -A</code><br />
+Stages all new, modified, and deleted files.</p></li>
+<li><p><code>git add &lt;foldername&gt;/*</code><br />
+Adds a folder and its contents to the staging area.</p></li>
+</ul>
+</div>
+<div id="remove" class="section level3 hasAnchor" number="6.4.7">
+<h3><span class="header-section-number">6.4.7</span> Remove<a href="git-and-github-for-reproducible-research.html#remove" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><code>git clean -n</code><br />
+Shows files not currently tracked by Git.</p></li>
+<li><p><code>git clean -f</code><br />
+Deletes untracked files.</p></li>
+</ul>
+<p>These commands should be used carefully because deleted files may not be recoverable.</p>
+</div>
+<div id="undo" class="section level3 hasAnchor" number="6.4.8">
+<h3><span class="header-section-number">6.4.8</span> Undo<a href="git-and-github-for-reproducible-research.html#undo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Git provides several ways to undo staged or modified changes.</p>
+<ul>
+<li><p><code>git reset</code><br />
+Undoes all staged changes.</p></li>
+<li><p><code>git reset HEAD &lt;filename&gt;</code><br />
+Unstages a specific file.</p></li>
+</ul>
+<p>Version control systems are valuable because they allow experimentation while preserving recoverability.</p>
+</div>
+<div id="commit" class="section level3 hasAnchor" number="6.4.9">
+<h3><span class="header-section-number">6.4.9</span> Commit<a href="git-and-github-for-reproducible-research.html#commit" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><code>git commit -m "&lt;message&gt;"</code><br />
+Saves a snapshot of staged changes into the local repository history.</li>
+</ul>
+<p>Commits should ideally:
+- be small and focused,
+- contain meaningful messages,
+- and document logical analytical or project changes.</p>
+<p>Good commit messages improve project traceability and collaboration.</p>
+</div>
+<div id="fetch" class="section level3 hasAnchor" number="6.4.10">
+<h3><span class="header-section-number">6.4.10</span> Fetch<a href="git-and-github-for-reproducible-research.html#fetch" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><code>git fetch</code><br />
+Retrieves new work from a remote repository without merging it into the current branch.</li>
+</ul>
+<p>Fetching allows users to inspect incoming changes before merging.</p>
+</div>
+<div id="pull" class="section level3 hasAnchor" number="6.4.11">
+<h3><span class="header-section-number">6.4.11</span> Pull<a href="git-and-github-for-reproducible-research.html#pull" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><code>git pull</code><br />
+Automatically fetches and merges changes from the remote branch into the current branch.</li>
+</ul>
+<p>Pulling helps synchronize local and remote repositories.</p>
+</div>
+<div id="push" class="section level3 hasAnchor" number="6.4.12">
+<h3><span class="header-section-number">6.4.12</span> Push<a href="git-and-github-for-reproducible-research.html#push" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><code>git push</code><br />
+Uploads local commits to the remote repository.</li>
+</ul>
+<p>Pushing allows collaborators to access updates and maintains synchronization between local and remote versions.</p>
+</div>
+</div>
+<div id="note-on-adding-files-to-the-remote-repository" class="section level2 hasAnchor" number="6.5">
+<h2><span class="header-section-number">6.5</span> Note on adding files to the remote repository<a href="git-and-github-for-reproducible-research.html#note-on-adding-files-to-the-remote-repository" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>When pushing to a remote repository for the first time, you must establish a connection between the local and remote branches:</p>
+<ul>
+<li><code>git push --set-upstream origin master</code></li>
+</ul>
+<p>or the shorter version:</p>
+<ul>
+<li><code>git push -u origin master</code></li>
+</ul>
+<p>After this initial setup, future pushes can usually be completed using:</p>
+<ul>
+<li><code>git push</code></li>
+</ul>
+<p>Modern repositories may use <code>main</code> instead of <code>master</code>.</p>
+</div>
+<div id="github-workflows-and-collaboration" class="section level2 hasAnchor" number="6.6">
+<h2><span class="header-section-number">6.6</span> GitHub workflows and collaboration<a href="git-and-github-for-reproducible-research.html#github-workflows-and-collaboration" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>GitHub provides additional collaborative tools including:</p>
+<ul>
+<li>pull requests,</li>
+<li>issue tracking,</li>
+<li>repository discussions,</li>
+<li>project boards,</li>
+<li>GitHub Actions for automation,</li>
+<li>documentation hosting,</li>
+<li>and integration with analytical tools and IDEs.</li>
+</ul>
+<p>These features support collaborative and reproducible analytical workflows across teams and organizations.</p>
+</div>
+<div id="git-and-reproducibility" class="section level2 hasAnchor" number="6.7">
+<h2><span class="header-section-number">6.7</span> Git and reproducibility<a href="git-and-github-for-reproducible-research.html#git-and-reproducibility" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Git supports reproducibility by:</p>
+<ul>
+<li>preserving the complete analytical history,</li>
+<li>documenting workflow evolution,</li>
+<li>enabling rollback to previous versions,</li>
+<li>facilitating peer review,</li>
+<li>supporting collaborative development,</li>
+<li>and improving transparency and accountability.</li>
+</ul>
+<p>In reproducible research, version control is not simply a software development tool — it is also an important organizational and documentation practice.</p>
+<p><br></p>
+</div>
+<div id="references" class="section level2 hasAnchor" number="6.8">
+<h2><span class="header-section-number">6.8</span> References<a href="git-and-github-for-reproducible-research.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p><a href="http://happygitwithr.com/rmd-test-drive.html">Happy Git and GitHub for the useR by Jennifer Bryan</a> adapted under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a></p></li>
+<li><p><a href="https://git-scm.com/book/en/v2">Pro Git book, written by Scott Chacon and Ben Straub</a> adapted under the <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution Non Commercial Share Alike 3.0 license</a></p></li>
+<li><p><a href="http://swcarpentry.github.io/git-novice/">Version Control with Git by Software Carpentry</a> adapted under the <a href="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0) license</a></p></li>
+</ul>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-
+<a href="introduction-to-markdown.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="resources.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook/js/app.min.js"></script>
